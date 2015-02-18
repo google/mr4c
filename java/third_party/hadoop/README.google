@@ -1,0 +1,12 @@
+URL: https://github.com/apache/hadoop/blob/release-2.5.0/hadoop-common-project/hadoop-common/src/test/java/org/apache/hadoop/net/StaticMapping.java
+Version: release-2.5.0
+License: Apache
+License File: LICENSE
+
+Description:
+StaticMapping.java is missing from the Cloudera distribution.
+Get NoClassDefFoundError when starting MiniDFSCluster
+Following suggestion at http://bigchunk.me/2012/09/07/hadoop-smoke-testing-mr/
+
+Local Modifications:
+Comment out "Override" annotation so we can compile under YARN and MRv1

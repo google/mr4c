@@ -1,0 +1,18 @@
+{
+    "algoConfig" : {
+        "file" : "reduce_algo.json"
+    },
+    "inputs" : {
+        "intermediate_avg_pixels" : {
+            "scheme" : "directory",
+            "location" : "avg_output"
+        }
+    },
+
+    "outputs" : {
+        "avg_pixels" : {
+            "scheme" : "binary",
+            "location" : "output/avg_pixels.csv"
+        }
+    }
+}

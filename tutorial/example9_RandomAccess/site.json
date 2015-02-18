@@ -1,0 +1,8 @@
+{
+    "clusters" : {
+        "local" : {
+            "jobTracker" : "localhost:8032"
+            ,"nameNode" : "hdfs://localhost:8020"
+        }
+    }
+}

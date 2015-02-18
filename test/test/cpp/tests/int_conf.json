@@ -1,0 +1,8 @@
+{
+	"mapper" : {
+		"pattern" : "${NAME}.csv",
+		"dimensions" : ["NAME"]
+		},
+	"ignore" : true
+}
+

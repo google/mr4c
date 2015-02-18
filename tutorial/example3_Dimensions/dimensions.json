@@ -1,0 +1,29 @@
+{"algoConfig" : {
+	"inline" : {
+		"artifact" : "Dimensions",
+		"name" : "dimensions",
+		"type" : "NATIVEC",
+		"dimensions" : [
+          	{
+          		"name" : "NAME",
+          		"canSplit" : true
+          	}
+         ]
+	} 
+},
+"inputs" : {
+	"imagesIn" : {
+		"location" : "input/",
+        "scheme" : "directory",
+        "srcConfig" : {
+        	"inline" : {
+        		"mapper" : {
+        			"pattern" : "test_${NAME}.bin",
+        			"dimensions" : ["NAME"]
+        		},
+        		"selfConfig" : false
+        	}
+        }
+	}
+}}
+

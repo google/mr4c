@@ -1,0 +1,9 @@
+{ "algoConfig" : { "inline" : { "artifact" : "ImageInfo",
+          "name" : "imageinfo",
+          "type" : "NATIVEC",
+          "extras" : ["gdal"]
+        } },
+  "inputs" : { "imageIn" : { "location" : "input/sample.tif",
+          "scheme" : "binary"
+        } }
+}

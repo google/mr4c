@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+	MR4C site configuration
+-->
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+	<!--property>
+		<name>some_name</name>
+		<value>some_value</value>
+	</property-->
+</configuration>
+
+

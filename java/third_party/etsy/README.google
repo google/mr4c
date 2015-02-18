@@ -1,0 +1,11 @@
+URL: https://github.com/etsy/statsd/blob/v0.7.2/examples/StatsdClient.java
+Version: v0.7.2
+License: MIT
+License File: LICENSE
+
+Description:
+Client for emitting stats in the Statsd format
+
+Local Modifications:
+Specify a Java package
+Use MR4C Logging

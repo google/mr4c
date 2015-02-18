@@ -1,0 +1,18 @@
+#!/bin/bash
+NN=hdfs://localhost:8020
+sourcedir="input"
+destdir=$NN/user/$USER/mr4c_input
+
+if [ -d "$sourcedir" ]; then
+   hdfs dfs -rm -r $destdir
+   hdfs dfs -put $sourcedir $destdir
+   hdfs dfs -ls $destdir
+   if [ $? -eq 0 ]; then
+       echo "SUCCESS: MR4CRef input successfully loaded into HDFS"
+   fi
+else
+	echo "ERROR: $sourcedir not found"
+	exit 1
+fi
+
+exit 0

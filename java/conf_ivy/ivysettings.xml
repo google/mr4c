@@ -1,0 +1,11 @@
+<ivysettings>
+	<settings defaultResolver="mr4c" />
+	<include url="${ivy.default.settings.dir}/ivysettings.xml"/>
+	<resolvers>
+		<ibiblio name="cloudera" m2compatible="true" root="https://repository.cloudera.com/artifactory/cloudera-repos" />
+		<chain name="mr4c" returnFirst="true" checkmodified="true">
+			<resolver ref="default"/>
+			<resolver ref="cloudera"/>
+		</chain>
+	</resolvers>
+</ivysettings>

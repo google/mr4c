@@ -1,0 +1,58 @@
+{
+    "algoConfig" : {
+        "inline" : {
+    		 "name" : "histogram",
+    		 "type" : "NATIVEC",
+    		 "artifact" : "histogram",
+		 "extras" : [ "openjpeg" ]
+	}
+    },
+    "inputs" : {
+        "images" : {
+            "scheme" : "directory",
+            "location" : "${inputdir}",
+            "srcConfig" : {
+		"inline" : {
+			"mapper" : {
+				"pattern" : "${NAME}.j2k",
+				"dimensions" : ["NAME"]
+			},
+			"ignore" : true,
+			"selfConfig" : false
+		}
+            }
+        }
+    },
+
+    "outputs" : {
+        "histograms" : {
+            "scheme" : "directory",
+            "location" : "${outputdir}",
+            "srcConfig" : {
+                "inline" : {
+			 "mapper" : {
+			 	  "pattern" : "${NAME}.csv",
+				  "dimensions" : ["NAME"]
+			   },
+	                   "ignore" : true
+		}
+            }
+        },
+        "intermediate_avg_pixels" : {
+            "scheme" : "directory",
+            "location" : "${avgoutputdir}",
+            "srcConfig" : {
+                "inline" : {
+			 "mapper" : {
+			 	  "pattern" : "${NAME}.csv",
+				  "dimensions" : ["NAME"]
+			   },
+	                   "ignore" : true
+		}
+            }
+        }                       
+    },
+    "params" : {
+        "num_buckets" : "20"
+    }
+}

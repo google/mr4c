@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ ! `hdfs dfs -test -d example8` ]; then hdfs dfs -mkdir /user/mr4c/example8 ; fi
+if [ ! `hdfs dfs -test -e example8/input.tif` ]; then hdfs dfs -put ./input.tif example8 ; fi
+
+mr4c conf/exe.json -R=conf/runtime.properties -A=conf/algo.properties $*
+
+if [ ! `hdfs dfs -test -e /user/mr4c/example8/output.mbtiles` ]; 
+then 
+   hdfs dfs -get /user/mr4c/example8/output.mbtiles ./
+   rm -rf ./mr4ctemp*
+   hdfs dfs -rm -r /user/mr4c/example8
+fi
+

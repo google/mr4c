@@ -1,0 +1,10 @@
+#!/bin/bash
+
+export LD_LIBRARY_PATH=${DIR}/../../native/dist:$LD_LIBRARY_PATH
+if [ -f "env.local" ]
+then
+	source env.local
+fi
+
+[ -z "$MR4C_LOG4CXX_CONFIG" ] && MR4C_LOG4CXX_CONFIG=${DIR}/../conf/log4cxx.properties
+export MR4C_LOG4CXX_CONFIG

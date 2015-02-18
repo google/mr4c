@@ -1,0 +1,8 @@
+#!/bin/bash
+job=$1
+d="/var/lib/hadoop-hdfs/cache/mapred/mapred/local/userlogs/${job}"
+
+for d in `sudo find $d -type d`
+do
+	sudo cat $d/syslog
+done

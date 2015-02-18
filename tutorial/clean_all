@@ -1,0 +1,36 @@
+#!/bin/bash
+
+set -e
+
+pushd example1_HelloWorld
+make clean
+popd
+
+pushd example2_IO
+make clean
+popd
+
+pushd example3_Dimensions
+make clean
+popd
+
+pushd example4_ExternalLib
+make clean
+popd
+
+pushd example5_json
+make clean
+popd
+
+pushd example6_ImageAlgo
+make clean
+popd
+
+pushd example7_yarn
+make clean
+popd
+
+pushd example9_RandomAccess
+make clean
+popd
+

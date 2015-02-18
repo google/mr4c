@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Deploys MR4C to /usr/local/mr4c
+
+set -e
+
+export MR4C_HOME=/usr/local/mr4c
+
+cd native
+sudo make deploy
+cd ..
+sudo /usr/local/mr4c/native/bin/post_install
+
+cd geospatial
+sudo make deploy
+cd ..
+sudo /usr/local/mr4c/geospatial/bin/post_install
+
+cd java
+sudo ant deploy
+cd ..
+sudo /usr/local/mr4c/java/bin/post_install
+
+

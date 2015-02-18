@@ -1,0 +1,22 @@
+{
+	"algoConfig" : {
+		"name" : "named config",
+		"file" : "URI to a config file"
+	},
+
+	"inputs" : {
+		"dataset1" : {
+			content of dataset.json
+		}
+
+	"outputs" : {
+		"dataset1" : {
+			content of dataset.json
+		}
+
+	"params" : {
+		"name1" : "val1",
+		"name2" : "val2"
+	}
+
+}

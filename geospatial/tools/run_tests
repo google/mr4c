@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -e
+
+DIR=`dirname $0`
+
+source ${DIR}/prep_env
+
+echo $LD_LIBRARY_PATH
+
+$DIR/../exe/run_tests $*

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+DIR=`dirname $0`
+[ -z "$MR4C_LOG4CXX_CONFIG" ] && MR4C_LOG4CXX_CONFIG=${DIR}/../conf/log4cxx.properties
+export MR4C_LOG4CXX_CONFIG
+$DIR/../exe/run_tests $*

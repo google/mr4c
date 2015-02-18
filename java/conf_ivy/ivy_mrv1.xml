@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<ivy-module version="2.0">
+
+	<info organisation="com.google" module="mr4c_java_hadoop" />
+
+	<dependencies>
+
+		<!-- BEGIN CLOUDERA -->
+
+		<!-- All classes needed for MRv1 -->
+		<dependency org="org.apache.hadoop" name="hadoop-client" rev="${cloudera.mapred.version.mrv1}">
+			<artifact name="hadoop-client" type="jar" />
+			<exclude module="log4j" />
+			<exclude module="slf4j-log4j12" />
+			<exclude module="junit" />
+			<exclude module="ant" />
+			<exclude module="hsqldb" />
+		</dependency>
+
+		<!-- Missing dependency -->
+		<dependency org="commons-cli" name="commons-cli" rev="1.2"/>
+
+	
+		<!-- BEGIN MINI-CLUSTER DEPENDENCIES -->
+
+		<dependency org="org.apache.hadoop" name="hadoop-test" rev="${cloudera.mapred.version.mrv1}">
+			<artifact name="hadoop-test" type="jar" />
+			<exclude module="log4j" />
+			<exclude module="slf4j-log4j12" />
+			<exclude module="junit" />
+			<exclude module="ant" />
+			<exclude module="mina-core" />
+			<exclude module="ftplet-api" />
+			<exclude module="ftpserver-core" />
+			<exclude module="ftpserver-deprecated" />
+		</dependency>
+	
+		<dependency org="org.apache.hadoop" name="hadoop-common" rev="${cloudera.hadoop.version.mrv1}">
+			<artifact name="hadoop-common" type="jar" />
+			<artifact name="hadoop-common-tests" url="https://repository.cloudera.com/artifactory/cloudera-repos/org/apache/hadoop/hadoop-common/${cloudera.hadoop.version.mrv1}/hadoop-common-${cloudera.hadoop.version.mrv1}-tests.jar" />
+			<exclude module="log4j" />
+			<exclude module="slf4j-log4j12" />
+			<exclude module="junit" />
+			<exclude module="ant" />
+		</dependency>
+	
+		<dependency org="org.apache.hadoop" name="hadoop-hdfs" rev="${cloudera.hadoop.version.mrv1}">
+			<artifact name="hadoop-hdfs" type="jar" />
+			<artifact name="hadoop-hdfs-tests" url="https://repository.cloudera.com/artifactory/cloudera-repos/org/apache/hadoop/hadoop-hdfs/${cloudera.hadoop.version.mrv1}/hadoop-hdfs-${cloudera.hadoop.version.mrv1}-tests.jar" />
+			<exclude module="log4j" />
+			<exclude module="slf4j-log4j12" />
+			<exclude module="junit" />
+			<exclude module="ant" />
+		</dependency>
+
+		<!-- END CLOUDERA -->
+
+	</dependencies>
+
+</ivy-module>
+

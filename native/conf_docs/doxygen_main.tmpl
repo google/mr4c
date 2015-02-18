@@ -1,0 +1,50 @@
+/** \mainpage MR4C Native Documentation
+ *
+ *
+ * \section intro_sec Introduction
+ *
+ * MR4C is a framework that allows Java to run native processing algorithms on
+datasets.
+ * \section basics Basics
+ * 1.	IMPLEMENT: Algorithms are implemented by extending the Algorithm class.
+ * 	The developer must implement the virtual method executeAlgorithm.
+ * 
+ * 2.	CONFIGURE: After instantiating the algorithm, developers should add the
+ * 	names of expected input and output datasets to their algorithm
+ * 	instances.
+ * 
+ * 3.	REGISTER: An instance of the algorithm should be registered with the
+ * 	AlgorithmRegistry.  The easiest way to do this is via the macro
+ * 	MR4C_REGISTER_ALGORITHM.  This will create a global variable that
+ * 	registers the algorithm when its library is loaded.
+ * 
+ * 4.	DEPLOY: The algorithm and its registration mechanism should be compiled
+ * 	into a shared library.
+ *
+ * \section dataaccess Data Access
+ * 1. AlgorithmData:  This is the root object of the data model.  It provides
+ *    access to the keyspace, input datasets, and empty output datasets.
+ * 
+ * 2. Keyspace:  The keyspace has an ordered list for each dimension of all
+ *    the elements present in the input datasets.  These lists can be
+ *    iterated thru, e.g. to run an algorithm for each frame in the input
+ *    data.  All classes in the key api have "value" semantics (see #5).
+ * 
+ * 3. Adding Files:  Algorithms may add new files to any of the output
+ *    datasets.  A DataFile object has "entity" semantics (see #5).  The
+ *    dataset it is added to is resposible for eventually deleting it.
+ * 
+ * 4. Adding Metadata: Algorithms may built up arbitrary metadata structures
+ *    for each key.  Any of the metadata types may be added to a dataset as
+ *    the root object for a key.  Building up a complex structure requires
+ *    the use of MetadataList or MetadataMap as the root.  Both of these
+ *    classes have entity semantics.  The remaining metadata classes have
+ *    value semantics ( those with value semantics all extend 
+ *    CloneableMetadataElement). 
+ *
+ * 5. Entity vs. Value semantics:  The classes available for use by
+ *    algorithm developers have two different kinds of semantics, "value"
+ *    and "entity":
+ *
+ *
+ */

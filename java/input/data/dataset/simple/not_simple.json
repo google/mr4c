@@ -1,0 +1,383 @@
+{
+  "metadata": [],
+  "files": [
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21556871",
+            "dimension": "ANCHOR"
+          },
+          {
+            "identifier": "MS",
+            "dimension": "IMAGE_TYPE"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "file": {
+        "contentType": "image/jp2"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21556871",
+            "dimension": "ANCHOR"
+          },
+          {
+            "identifier": "MS-MASK",
+            "dimension": "IMAGE_TYPE"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "file": {
+        "contentType": "image/jp2"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21556871",
+            "dimension": "ANCHOR"
+          },
+          {
+            "identifier": "PAN",
+            "dimension": "IMAGE_TYPE"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "file": {
+        "contentType": "image/jp2"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21556964",
+            "dimension": "ANCHOR"
+          },
+          {
+            "identifier": "MS",
+            "dimension": "IMAGE_TYPE"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "file": {
+        "contentType": "image/jp2"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21556964",
+            "dimension": "ANCHOR"
+          },
+          {
+            "identifier": "MS-MASK",
+            "dimension": "IMAGE_TYPE"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "file": {
+        "contentType": "image/jp2"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21556964",
+            "dimension": "ANCHOR"
+          },
+          {
+            "identifier": "PAN",
+            "dimension": "IMAGE_TYPE"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "file": {
+        "contentType": "image/jp2"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21557056",
+            "dimension": "ANCHOR"
+          },
+          {
+            "identifier": "MS",
+            "dimension": "IMAGE_TYPE"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "file": {
+        "contentType": "image/jp2"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21557056",
+            "dimension": "ANCHOR"
+          },
+          {
+            "identifier": "MS-MASK",
+            "dimension": "IMAGE_TYPE"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "file": {
+        "contentType": "image/jp2"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21557056",
+            "dimension": "ANCHOR"
+          },
+          {
+            "identifier": "PAN",
+            "dimension": "IMAGE_TYPE"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "file": {
+        "contentType": "image/jp2"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21557172",
+            "dimension": "ANCHOR"
+          },
+          {
+            "identifier": "MS",
+            "dimension": "IMAGE_TYPE"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "file": {
+        "contentType": "image/jp2"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21557172",
+            "dimension": "ANCHOR"
+          },
+          {
+            "identifier": "MS-MASK",
+            "dimension": "IMAGE_TYPE"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "file": {
+        "contentType": "image/jp2"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21557172",
+            "dimension": "ANCHOR"
+          },
+          {
+            "identifier": "PAN",
+            "dimension": "IMAGE_TYPE"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "file": {
+        "contentType": "image/jp2"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21557265",
+            "dimension": "ANCHOR"
+          },
+          {
+            "identifier": "MS",
+            "dimension": "IMAGE_TYPE"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "file": {
+        "contentType": "image/jp2"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21557265",
+            "dimension": "ANCHOR"
+          },
+          {
+            "identifier": "MS-MASK",
+            "dimension": "IMAGE_TYPE"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "file": {
+        "contentType": "image/jp2"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21557265",
+            "dimension": "ANCHOR"
+          },
+          {
+            "identifier": "PAN",
+            "dimension": "IMAGE_TYPE"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "file": {
+        "contentType": "image/jp2"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21557288",
+            "dimension": "ANCHOR"
+          },
+          {
+            "identifier": "MS",
+            "dimension": "IMAGE_TYPE"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "file": {
+        "contentType": "image/jp2"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21557288",
+            "dimension": "ANCHOR"
+          },
+          {
+            "identifier": "MS-MASK",
+            "dimension": "IMAGE_TYPE"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "file": {
+        "contentType": "image/jp2"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21557288",
+            "dimension": "ANCHOR"
+          },
+          {
+            "identifier": "PAN",
+            "dimension": "IMAGE_TYPE"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "file": {
+        "contentType": "image/jp2"
+      }
+    }
+  ]
+}

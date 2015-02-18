@@ -1,0 +1,1145 @@
+{
+  "metadata": [
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21556871",
+            "dimension": "FRAME"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "metadata": {
+        "element": {
+          "entries": {
+            "transform": {
+              "element": {
+                "values": [
+                  "0.2051691608845028",
+                  "-0.0561854987654508",
+                  "0.008411521722055886",
+                  "0.07504306892414331"
+                ],
+                "primitiveType": "LONG_DOUBLE"
+              },
+              "elementType": "ARRAY"
+            },
+            "previous-frame": {
+              "element": {
+                "key": {
+                  "elements": [
+                    {
+                      "identifier": "2455874.21556848",
+                      "dimension": "FRAME"
+                    }
+                  ]
+                }
+              },
+              "elementType": "KEY"
+            },
+            "ms-size": {
+              "element": {
+                "value": "518380",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            },
+            "pan-size": {
+              "element": {
+                "value": "518394",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            }
+          }
+        },
+        "elementType": "MAP"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21556894",
+            "dimension": "FRAME"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "metadata": {
+        "element": {
+          "entries": {
+            "transform": {
+              "element": {
+                "values": [
+                  "-0.09065291168397633",
+                  "0.0943502039173844",
+                  "-0.1105147106249953",
+                  "0.1632412766695582"
+                ],
+                "primitiveType": "LONG_DOUBLE"
+              },
+              "elementType": "ARRAY"
+            },
+            "previous-frame": {
+              "element": {
+                "key": {
+                  "elements": [
+                    {
+                      "identifier": "2455874.21556871",
+                      "dimension": "FRAME"
+                    }
+                  ]
+                }
+              },
+              "elementType": "KEY"
+            },
+            "ms-size": {
+              "element": {
+                "value": "518335",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            },
+            "pan-size": {
+              "element": {
+                "value": "518395",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            }
+          }
+        },
+        "elementType": "MAP"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21556917",
+            "dimension": "FRAME"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "metadata": {
+        "element": {
+          "entries": {
+            "transform": {
+              "element": {
+                "values": [
+                  "0.01882282186832731",
+                  "0.04439891382130265",
+                  "0.02379005012113452",
+                  "-0.1021097616651875"
+                ],
+                "primitiveType": "LONG_DOUBLE"
+              },
+              "elementType": "ARRAY"
+            },
+            "previous-frame": {
+              "element": {
+                "key": {
+                  "elements": [
+                    {
+                      "identifier": "2455874.21556894",
+                      "dimension": "FRAME"
+                    }
+                  ]
+                }
+              },
+              "elementType": "KEY"
+            },
+            "ms-size": {
+              "element": {
+                "value": "518326",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            },
+            "pan-size": {
+              "element": {
+                "value": "518395",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            }
+          }
+        },
+        "elementType": "MAP"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21556941",
+            "dimension": "FRAME"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "metadata": {
+        "element": {
+          "entries": {
+            "transform": {
+              "element": {
+                "values": [
+                  "-0.06559102131152018",
+                  "0.1715206194619281",
+                  "0.05657271774677173",
+                  "0.1958395774483788"
+                ],
+                "primitiveType": "LONG_DOUBLE"
+              },
+              "elementType": "ARRAY"
+            },
+            "previous-frame": {
+              "element": {
+                "key": {
+                  "elements": [
+                    {
+                      "identifier": "2455874.21556917",
+                      "dimension": "FRAME"
+                    }
+                  ]
+                }
+              },
+              "elementType": "KEY"
+            },
+            "ms-size": {
+              "element": {
+                "value": "518392",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            },
+            "pan-size": {
+              "element": {
+                "value": "518399",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            }
+          }
+        },
+        "elementType": "MAP"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21556964",
+            "dimension": "FRAME"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "metadata": {
+        "element": {
+          "entries": {
+            "transform": {
+              "element": {
+                "values": [
+                  "-0.1694347131666051",
+                  "0.06985685074922921",
+                  "0.0928821056060386",
+                  "0.18635082367133"
+                ],
+                "primitiveType": "LONG_DOUBLE"
+              },
+              "elementType": "ARRAY"
+            },
+            "previous-frame": {
+              "element": {
+                "key": {
+                  "elements": [
+                    {
+                      "identifier": "2455874.21556941",
+                      "dimension": "FRAME"
+                    }
+                  ]
+                }
+              },
+              "elementType": "KEY"
+            },
+            "ms-size": {
+              "element": {
+                "value": "518370",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            },
+            "pan-size": {
+              "element": {
+                "value": "518337",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            }
+          }
+        },
+        "elementType": "MAP"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21556987",
+            "dimension": "FRAME"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "metadata": {
+        "element": {
+          "entries": {
+            "transform": {
+              "element": {
+                "values": [
+                  "0.125743841136727",
+                  "0.1763297057661694",
+                  "-0.0462336241005807",
+                  "0.06403914239238744"
+                ],
+                "primitiveType": "LONG_DOUBLE"
+              },
+              "elementType": "ARRAY"
+            },
+            "previous-frame": {
+              "element": {
+                "key": {
+                  "elements": [
+                    {
+                      "identifier": "2455874.21556964",
+                      "dimension": "FRAME"
+                    }
+                  ]
+                }
+              },
+              "elementType": "KEY"
+            },
+            "ms-size": {
+              "element": {
+                "value": "518381",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            },
+            "pan-size": {
+              "element": {
+                "value": "518399",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            }
+          }
+        },
+        "elementType": "MAP"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21557010",
+            "dimension": "FRAME"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "metadata": {
+        "element": {
+          "entries": {
+            "transform": {
+              "element": {
+                "values": [
+                  "0.09375307246951908",
+                  "0.1812511593125654",
+                  "-0.1193433042123504",
+                  "0.02327501791316293"
+                ],
+                "primitiveType": "LONG_DOUBLE"
+              },
+              "elementType": "ARRAY"
+            },
+            "previous-frame": {
+              "element": {
+                "key": {
+                  "elements": [
+                    {
+                      "identifier": "2455874.21556987",
+                      "dimension": "FRAME"
+                    }
+                  ]
+                }
+              },
+              "elementType": "KEY"
+            },
+            "ms-size": {
+              "element": {
+                "value": "518275",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            },
+            "pan-size": {
+              "element": {
+                "value": "518366",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            }
+          }
+        },
+        "elementType": "MAP"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21557033",
+            "dimension": "FRAME"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "metadata": {
+        "element": {
+          "entries": {
+            "transform": {
+              "element": {
+                "values": [
+                  "0.146537196491588",
+                  "0.1228961294045914",
+                  "0.02948857703183504",
+                  "-0.04066071351024323"
+                ],
+                "primitiveType": "LONG_DOUBLE"
+              },
+              "elementType": "ARRAY"
+            },
+            "previous-frame": {
+              "element": {
+                "key": {
+                  "elements": [
+                    {
+                      "identifier": "2455874.21557010",
+                      "dimension": "FRAME"
+                    }
+                  ]
+                }
+              },
+              "elementType": "KEY"
+            },
+            "ms-size": {
+              "element": {
+                "value": "518390",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            },
+            "pan-size": {
+              "element": {
+                "value": "518394",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            }
+          }
+        },
+        "elementType": "MAP"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21557056",
+            "dimension": "FRAME"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "metadata": {
+        "element": {
+          "entries": {
+            "transform": {
+              "element": {
+                "values": [
+                  "0.09482134056815851",
+                  "0.1104003696996278",
+                  "0.05089498928805706",
+                  "0.09737504606076654"
+                ],
+                "primitiveType": "LONG_DOUBLE"
+              },
+              "elementType": "ARRAY"
+            },
+            "previous-frame": {
+              "element": {
+                "key": {
+                  "elements": [
+                    {
+                      "identifier": "2455874.21557033",
+                      "dimension": "FRAME"
+                    }
+                  ]
+                }
+              },
+              "elementType": "KEY"
+            },
+            "ms-size": {
+              "element": {
+                "value": "518398",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            },
+            "pan-size": {
+              "element": {
+                "value": "518392",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            }
+          }
+        },
+        "elementType": "MAP"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21557079",
+            "dimension": "FRAME"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "metadata": {
+        "element": {
+          "entries": {
+            "transform": {
+              "element": {
+                "values": [
+                  "0.3517994826770469",
+                  "0.2029567778156439",
+                  "-0.03886481248445112",
+                  "0.2084946658324778"
+                ],
+                "primitiveType": "LONG_DOUBLE"
+              },
+              "elementType": "ARRAY"
+            },
+            "previous-frame": {
+              "element": {
+                "key": {
+                  "elements": [
+                    {
+                      "identifier": "2455874.21557056",
+                      "dimension": "FRAME"
+                    }
+                  ]
+                }
+              },
+              "elementType": "KEY"
+            },
+            "ms-size": {
+              "element": {
+                "value": "518396",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            },
+            "pan-size": {
+              "element": {
+                "value": "518370",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            }
+          }
+        },
+        "elementType": "MAP"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21557103",
+            "dimension": "FRAME"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "metadata": {
+        "element": {
+          "entries": {
+            "transform": {
+              "element": {
+                "values": [
+                  "-0.1721524551829201",
+                  "0.2168890595976241",
+                  "0.1602216340547264",
+                  "0.02592469879001528"
+                ],
+                "primitiveType": "LONG_DOUBLE"
+              },
+              "elementType": "ARRAY"
+            },
+            "previous-frame": {
+              "element": {
+                "key": {
+                  "elements": [
+                    {
+                      "identifier": "2455874.21557079",
+                      "dimension": "FRAME"
+                    }
+                  ]
+                }
+              },
+              "elementType": "KEY"
+            },
+            "ms-size": {
+              "element": {
+                "value": "518343",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            },
+            "pan-size": {
+              "element": {
+                "value": "518388",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            }
+          }
+        },
+        "elementType": "MAP"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21557126",
+            "dimension": "FRAME"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "metadata": {
+        "element": {
+          "entries": {
+            "transform": {
+              "element": {
+                "values": [
+                  "-0.1140461732119239",
+                  "-0.1025463115645538",
+                  "0.05101228721917173",
+                  "-0.0347520430152203"
+                ],
+                "primitiveType": "LONG_DOUBLE"
+              },
+              "elementType": "ARRAY"
+            },
+            "previous-frame": {
+              "element": {
+                "key": {
+                  "elements": [
+                    {
+                      "identifier": "2455874.21557103",
+                      "dimension": "FRAME"
+                    }
+                  ]
+                }
+              },
+              "elementType": "KEY"
+            },
+            "ms-size": {
+              "element": {
+                "value": "518374",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            },
+            "pan-size": {
+              "element": {
+                "value": "518383",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            }
+          }
+        },
+        "elementType": "MAP"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21557149",
+            "dimension": "FRAME"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "metadata": {
+        "element": {
+          "entries": {
+            "transform": {
+              "element": {
+                "values": [
+                  "-0.1376361960024746",
+                  "0.06475223059049046",
+                  "0.03294346640891875",
+                  "-0.1890756560359169"
+                ],
+                "primitiveType": "LONG_DOUBLE"
+              },
+              "elementType": "ARRAY"
+            },
+            "previous-frame": {
+              "element": {
+                "key": {
+                  "elements": [
+                    {
+                      "identifier": "2455874.21557126",
+                      "dimension": "FRAME"
+                    }
+                  ]
+                }
+              },
+              "elementType": "KEY"
+            },
+            "ms-size": {
+              "element": {
+                "value": "518371",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            },
+            "pan-size": {
+              "element": {
+                "value": "518371",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            }
+          }
+        },
+        "elementType": "MAP"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21557172",
+            "dimension": "FRAME"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "metadata": {
+        "element": {
+          "entries": {
+            "transform": {
+              "element": {
+                "values": [
+                  "0.2374454268993472",
+                  "-0.0537925812547703",
+                  "0.01445449408032456",
+                  "0.2165492589690703"
+                ],
+                "primitiveType": "LONG_DOUBLE"
+              },
+              "elementType": "ARRAY"
+            },
+            "previous-frame": {
+              "element": {
+                "key": {
+                  "elements": [
+                    {
+                      "identifier": "2455874.21557149",
+                      "dimension": "FRAME"
+                    }
+                  ]
+                }
+              },
+              "elementType": "KEY"
+            },
+            "ms-size": {
+              "element": {
+                "value": "518308",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            },
+            "pan-size": {
+              "element": {
+                "value": "518376",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            }
+          }
+        },
+        "elementType": "MAP"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21557195",
+            "dimension": "FRAME"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "metadata": {
+        "element": {
+          "entries": {
+            "transform": {
+              "element": {
+                "values": [
+                  "0.1225587123521527",
+                  "0.1624968330845794",
+                  "-0.02973585119579278",
+                  "-0.06310607796148053"
+                ],
+                "primitiveType": "LONG_DOUBLE"
+              },
+              "elementType": "ARRAY"
+            },
+            "previous-frame": {
+              "element": {
+                "key": {
+                  "elements": [
+                    {
+                      "identifier": "2455874.21557172",
+                      "dimension": "FRAME"
+                    }
+                  ]
+                }
+              },
+              "elementType": "KEY"
+            },
+            "ms-size": {
+              "element": {
+                "value": "518374",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            },
+            "pan-size": {
+              "element": {
+                "value": "518398",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            }
+          }
+        },
+        "elementType": "MAP"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21557218",
+            "dimension": "FRAME"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "metadata": {
+        "element": {
+          "entries": {
+            "transform": {
+              "element": {
+                "values": [
+                  "-0.02081591362099169",
+                  "0.1772233043067754",
+                  "0.1528495405783255",
+                  "-0.1529350852254798"
+                ],
+                "primitiveType": "LONG_DOUBLE"
+              },
+              "elementType": "ARRAY"
+            },
+            "previous-frame": {
+              "element": {
+                "key": {
+                  "elements": [
+                    {
+                      "identifier": "2455874.21557195",
+                      "dimension": "FRAME"
+                    }
+                  ]
+                }
+              },
+              "elementType": "KEY"
+            },
+            "ms-size": {
+              "element": {
+                "value": "518384",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            },
+            "pan-size": {
+              "element": {
+                "value": "518378",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            }
+          }
+        },
+        "elementType": "MAP"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21557242",
+            "dimension": "FRAME"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "metadata": {
+        "element": {
+          "entries": {
+            "transform": {
+              "element": {
+                "values": [
+                  "0.1994653151164219",
+                  "0.1528460801439259",
+                  "0.0416875430823618",
+                  "0.08342258624135668"
+                ],
+                "primitiveType": "LONG_DOUBLE"
+              },
+              "elementType": "ARRAY"
+            },
+            "previous-frame": {
+              "element": {
+                "key": {
+                  "elements": [
+                    {
+                      "identifier": "2455874.21557218",
+                      "dimension": "FRAME"
+                    }
+                  ]
+                }
+              },
+              "elementType": "KEY"
+            },
+            "ms-size": {
+              "element": {
+                "value": "518331",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            },
+            "pan-size": {
+              "element": {
+                "value": "518375",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            }
+          }
+        },
+        "elementType": "MAP"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21557265",
+            "dimension": "FRAME"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "metadata": {
+        "element": {
+          "entries": {
+            "transform": {
+              "element": {
+                "values": [
+                  "0.04737485508854085",
+                  "-0.1103257064031628",
+                  "0.08026329498306297",
+                  "0.1122450254568609"
+                ],
+                "primitiveType": "LONG_DOUBLE"
+              },
+              "elementType": "ARRAY"
+            },
+            "previous-frame": {
+              "element": {
+                "key": {
+                  "elements": [
+                    {
+                      "identifier": "2455874.21557242",
+                      "dimension": "FRAME"
+                    }
+                  ]
+                }
+              },
+              "elementType": "KEY"
+            },
+            "ms-size": {
+              "element": {
+                "value": "518396",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            },
+            "pan-size": {
+              "element": {
+                "value": "518399",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            }
+          }
+        },
+        "elementType": "MAP"
+      }
+    },
+    {
+      "key": {
+        "elements": [
+          {
+            "identifier": "2455874.21557288",
+            "dimension": "FRAME"
+          },
+          {
+            "identifier": "1",
+            "dimension": "SENSOR"
+          }
+        ]
+      },
+      "metadata": {
+        "element": {
+          "entries": {
+            "transform": {
+              "element": {
+                "values": [
+                  "-0.1345106611508252",
+                  "0.1609355483723878",
+                  "0.1123269854696858",
+                  "0.3101741382974767"
+                ],
+                "primitiveType": "LONG_DOUBLE"
+              },
+              "elementType": "ARRAY"
+            },
+            "previous-frame": {
+              "element": {
+                "key": {
+                  "elements": [
+                    {
+                      "identifier": "2455874.21557265",
+                      "dimension": "FRAME"
+                    }
+                  ]
+                }
+              },
+              "elementType": "KEY"
+            },
+            "ms-size": {
+              "element": {
+                "value": "518270",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            },
+            "pan-size": {
+              "element": {
+                "value": "518391",
+                "primitiveType": "SIZE_T"
+              },
+              "elementType": "FIELD"
+            }
+          }
+        },
+        "elementType": "MAP"
+      }
+    }
+  ],
+  "files": []
+}

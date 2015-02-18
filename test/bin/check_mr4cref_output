@@ -1,0 +1,41 @@
+#!/bin/bash
+
+NN="hdfs://localhost:8020"
+sourcedir=$NN/user/$USER/mr4c_avgoutput
+destdir=/tmp/mr4c_avgoutput
+testfile="$destdir/avg_pixels.csv"
+reffile="ref/avg_pixels.csv"
+
+# check ref file
+if [ ! -f $reffile ]; then
+    echo "ERROR: reference file $reffile not found.  Please check your installation"
+    exit 1
+fi
+
+# remove previous run
+if [ -d "$destdir" ]; then
+   echo "removing $destdir"
+   rm -rf $destdir
+fi
+
+# check for outputdir in HDFS
+hdfs dfs -test -d $sourcedir
+if [ $? -ne 0 ]; then
+    echo "$sourcedir not found.  Did you execute the test yet?"
+    exit 1
+fi
+
+hdfs dfs -get $sourcedir $destdir
+if [ -d "$destdir" ]; then
+    echo "Running diff against reference data"
+    diff -q $reffile $testfile
+    if [ $? -eq 0 ]; then
+	echo "SUCCESS: MR4CRef output successfully validated"
+    else
+	echo "ERROR: MR4CRef not validated: $reffile $testfile"
+	exit 1
+    fi
+else
+	echo "ERROR: $destdir not found"
+	exit 1
+fi

@@ -1,0 +1,11 @@
+{ "algoConfig" : { "inline" : { "artifact" : "ChangeImage",
+          "name" : "changeimage",
+          "type" : "NATIVEC"
+        } },
+  "inputs" : { "imageIn" : { "location" : "input/test.bin",
+          "scheme" : "binary"
+        } },
+  "outputs" : { "imageOut" : { "location" : "output/testOut.bin",
+          "scheme" : "binary"
+        } }
+}

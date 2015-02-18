@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# execute any ant command line with YARN binding
+
+set -e
+
+ant -Dhadoop.binding=yarn $*

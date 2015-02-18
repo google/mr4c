@@ -1,0 +1,7 @@
+{
+	"mapper" : {
+		"pattern" : "ss01_c${sensor}_${frame}_${type}_1.5bps.jpc",
+		"dimensions" : [ "frame" , "sensor", "type" ]
+	},
+	"selfConfig" : true
+}

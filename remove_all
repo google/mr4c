@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Removes MR4C from /usr/local/mr4c
+
+set -e
+
+export MR4C_HOME=/usr/local/mr4c
+
+NATIVE_PR=/usr/local/mr4c/native/bin/pre_remove
+[ -f $NATIVE_PR ] && sudo $NATIVE_PR
+cd native
+sudo make remove
+cd ..
+
+GEO_PR=/usr/local/mr4c/geospatial/bin/pre_remove
+[ -f $GEO_PR ] && sudo $GEO_PR
+cd geospatial
+sudo make remove
+cd ..
+
+JAVA_PR=/usr/local/mr4c/java/bin/pre_remove
+[ -f $JAVA_PR ] && sudo $JAVA_PR
+cd java
+sudo ant remove
+cd ..
+
+

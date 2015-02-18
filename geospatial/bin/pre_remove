@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm -f /usr/local/lib/libmr4cgeo.so
+rm -f /usr/include/mr4c_geospatial
+rm -f /etc/ld.so.conf.d/mr4c-geo-ld.conf

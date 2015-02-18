@@ -1,0 +1,10 @@
+URL: http://stackoverflow.com/questions/4332264/wrapping-a-bytebuffer-with-an-inputstream
+Version: N/A
+License: CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/legalcode.txt)
+License File: LICENSE
+
+Description:
+Implementation of a ByteBufferInputStream
+
+Local Modifications:
+Add Java package and justification

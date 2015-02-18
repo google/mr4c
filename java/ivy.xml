@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<ivy-module version="2.0">
+
+	<info organisation="com.google" module="mr4c" >
+
+		<extends
+			organisation="com.google"
+			module="mr4c_java_common"
+			extendType="dependencies"
+			revision="latest.integration"
+			location="conf_ivy/ivy_common.xml"
+		/>
+
+		<extends
+			organisation="com.google" module="mr4c_java_hadoop"
+			extendType="dependencies"
+			revision="latest.integration"
+			location="conf_ivy/ivy_hadoop.xml"
+		/>
+		<!-- Ivy 2.2 doesn't pick up properties for the location attribute -->
+
+	</info>
+
+</ivy-module>
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<ivy-module version="2.0">
+
+	<info organisation="com.google" module="mr4c_java_hadoop" />
+
+	<dependencies>
+
+		<!-- BEGIN CLOUDERA -->
+
+		<!-- All classes needed for MR on YARN -->
+		<dependency org="org.apache.hadoop" name="hadoop-client" rev="${cloudera.hadoop.version.yarn}">
+			<artifact name="hadoop-client" type="jar" />
+			<exclude module="log4j" />
+			<exclude module="slf4j-log4j12" />
+			<exclude module="junit" />
+			<exclude module="ant" />
+		</dependency>
+	
+		<!--
+			This should pull in the mini-cluster and all its dependencies.
+			Unfortunately, not getting the expected 'test-jar" dependencies.
+			Need to pull those by direct cloudera URLs (we have the wrong pattern, but it still doesn't work
+			Once we specify a test-jar artifact, need to specify the main artifact too, otherwise we lose the dependency (even though hadoop-client would have pulled it in)
+			Fixes to get the missing dependencies follow this one
+		-->
+		<dependency org="org.apache.hadoop" name="hadoop-minicluster" rev="${cloudera.hadoop.version.yarn}">
+			<artifact name="hadoop-minicluster" type="jar" />
+			<exclude module="log4j" />
+			<exclude module="slf4j-log4j12" />
+			<exclude module="junit" />
+			<exclude module="ant" />
+		</dependency>
+	
+		<!-- BEGIN MINI-CLUSTER DEPENDENCIES -->
+	
+		<dependency org="org.apache.hadoop" name="hadoop-common" rev="${cloudera.hadoop.version.yarn}">
+			<artifact name="hadoop-common" type="jar" />
+			<artifact name="hadoop-common-tests" url="https://repository.cloudera.com/artifactory/cloudera-repos/org/apache/hadoop/hadoop-common/${cloudera.hadoop.version.yarn}/hadoop-common-${cloudera.hadoop.version.yarn}-tests.jar" />
+			<exclude module="log4j" />
+			<exclude module="slf4j-log4j12" />
+			<exclude module="junit" />
+			<exclude module="ant" />
+		</dependency>
+	
+		<dependency org="org.apache.hadoop" name="hadoop-mapreduce-client-jobclient" rev="${cloudera.hadoop.version.yarn}">
+			<artifact name="hadoop-mapreduce-client-jobclient" type="jar" />
+			<artifact name="hadoop-mapreduce-client-jobclient-tests" url="https://repository.cloudera.com/artifactory/cloudera-repos/org/apache/hadoop/hadoop-mapreduce-client-jobclient/${cloudera.hadoop.version.yarn}/hadoop-mapreduce-client-jobclient-${cloudera.hadoop.version.yarn}-tests.jar" />
+			<exclude module="log4j" />
+			<exclude module="slf4j-log4j12" />
+			<exclude module="junit" />
+			<exclude module="ant" />
+		</dependency>
+	
+		<dependency org="org.apache.hadoop" name="hadoop-hdfs" rev="${cloudera.hadoop.version.yarn}">
+			<artifact name="hadoop-hdfs" type="jar" />
+			<artifact name="hadoop-hdfs-tests" url="https://repository.cloudera.com/artifactory/cloudera-repos/org/apache/hadoop/hadoop-hdfs/${cloudera.hadoop.version.yarn}/hadoop-hdfs-${cloudera.hadoop.version.yarn}-tests.jar" />
+			<exclude module="log4j" />
+			<exclude module="slf4j-log4j12" />
+			<exclude module="junit" />
+			<exclude module="ant" />
+		</dependency>
+
+		<!-- END CLOUDERA -->
+
+	</dependencies>
+
+</ivy-module>
+

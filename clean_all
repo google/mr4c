@@ -1,0 +1,16 @@
+#!/bin/bash
+
+set -e
+
+cd native
+make clean
+cd ..
+
+cd geospatial
+make clean
+cd ..
+
+cd java
+ant clean
+cd ..
+

@@ -1,0 +1,41 @@
+{
+    "algoConfig" : {
+        "file" : "algo.json"
+    },
+    "inputs" : {
+        "images" : {
+            "scheme" : "directory",
+            "location" : "input",
+            "srcConfig" : {
+		"inline" : {
+			"mapper" : {
+				"pattern" : "${NAME}.j2k",
+				"dimensions" : ["NAME"]
+			},
+			"ignore" : true,
+			"selfConfig" : false
+		}
+            }
+        }
+    },
+
+    "outputs" : {
+        "histograms" : {
+            "scheme" : "directory",
+            "location" : "output",
+            "srcConfig" : {
+                "file" : "int_conf.json"
+            }
+        },
+        "intermediate_avg_pixels" : {
+            "scheme" : "directory",
+            "location" : "avg_output",
+            "srcConfig" : {
+                "file" : "int_conf.json"
+            }
+        }                       
+    },
+    "params" : {
+        "num_buckets" : "20"
+    }
+}

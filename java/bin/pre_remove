@@ -1,0 +1,10 @@
+#!/bin/bash
+rm -f /usr/local/bin/mr4c
+rm -f /usr/local/bin/mr4c_debug
+rm -f /usr/local/bin/mr4c_hadoop
+rm -f /usr/local/bin/mr4c_hadoop_remote
+rm -f /usr/local/bin/mr4c_diff
+rm -f /usr/local/bin/mr4c_test
+rm -f /etc/mr4c/log4j.properties
+rm -f /etc/mr4c/site.json
+rm -f /etc/mr4c/mr4c-hadoop-site.xml

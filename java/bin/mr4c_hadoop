@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# args:
+#	$1 = URI to execution config file
+#	$2 = number of map tasks
+
+if [ $# -lt 1 ]  
+then
+  echo "Usage: mr4c_hadoop execution_config_uri num_tasks [name=val ...]"
+  exit -1
+fi
+
+THIS=`readlink -f $0`
+BIN=`dirname $THIS`
+MR4C_JAVA=`dirname $BIN`
+
+MR4C_JAR_WITH_LIBS=$MR4C_JAVA/dist/mr4c-with-libs.jar
+MR4C_CONF=$MR4C_JAVA/conf
+MR4C_CLASSPATH=$MR4C_CONF:$MR4C_JAR_WITH_LIBS:$MR4C_JAVA/lib/'*':$MR4C_ALGORITHM_CLASSPATH
+MR4C_LIBPATH=$LD_LIBRARY_PATH:.:/usr/local/lib 
+
+java -cp "$MR4C_CLASSPATH" -Djna.library.path=$MR4C_LIBPATH -Dmr4c.hadoop.algorithm.classpath=$MR4C_ALGORITHM_CLASSPATH -Dmr4c.log4j=$MR4C_LOG4J_CONFIG -Dmr4c.site=$MR4C_SITE $MR4C_JAVA_OPTS com.google.mr4c.hadoop.LocalHadoopAlgoRunner $MR4C_JAR_WITH_LIBS $*
+

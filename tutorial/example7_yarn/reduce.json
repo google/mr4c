@@ -1,0 +1,43 @@
+{
+	"algoConfig" : 
+	{
+		"inline" : 
+		{
+			"artifact" : "Reduce",
+          	"name" : "reduce",
+          	"type" : "NATIVEC",
+          	"dimensions" : [
+          	{
+          		"name" : "NAME",
+          		"canSplit" : false
+          	}
+          	]
+        }
+	},
+	
+	"inputs" : 
+	{
+		"hist" : 
+		{
+			"location" : "hdfs://localhost:8020/user/mr4c/skysatReduce",
+			"scheme" : "directory",
+			"srcConfig" : 
+			{
+        		"inline" : 
+        		{
+        			"ignore" : true,
+        			"selfConfig" : true
+        		}
+        	}
+      }
+	},
+	
+	"outputs" : 
+	{
+		"summaryOut" : 
+		{
+			"location" : "hdfs://localhost:8020/user/mr4c/summary.csv",
+			"scheme" : "binary"
+		}
+	}
+}

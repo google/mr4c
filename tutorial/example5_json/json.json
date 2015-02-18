@@ -1,0 +1,35 @@
+{
+    "algoConfig": {
+        "inline": {
+            "artifact": "JSON", 
+            "dimensions": [
+                {
+                    "canSplit": true, 
+                    "name": "NAME"
+                }
+            ], 
+            "extras": [
+                "jansson"
+            ], 
+            "name": "json", 
+            "type": "NATIVEC"
+        }
+    }, 
+    "inputs": {
+        "metadataIn": {
+            "location": "input/", 
+            "scheme": "directory", 
+            "srcConfig": {
+                "inline": {
+                    "mapper": {
+                        "dimensions": [
+                            "NAME"
+                        ], 
+                        "pattern": "${NAME}_metadata.txt"
+                    }, 
+                    "selfConfig": false
+                }
+            }
+        }
+    }
+}

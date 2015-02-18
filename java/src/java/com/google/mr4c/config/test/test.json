@@ -1,0 +1,11 @@
+{
+	"exeConfig" : {
+		"inline" : "inlined config",
+		"file" : "URI to a config file"
+	},
+	"outputs" : {
+		"dataset1" : {
+			content of diff.json
+		}
+
+}	

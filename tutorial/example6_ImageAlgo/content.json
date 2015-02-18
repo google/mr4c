@@ -1,0 +1,61 @@
+{
+	"algoConfig" : 
+	{
+		"inline" : 
+		{
+			"artifact" : "Content",
+          	"name" : "content",
+          	"type" : "NATIVEC",
+          	"extras" : ["gdal"],
+          	"dimensions" : [
+          	{
+          		"name" : "NAME",
+          		"canSplit" : true
+          	}
+          	]
+        }
+	},
+	
+	"inputs" : 
+	{
+		"imagesIn" : 
+		{
+			"location" : "input/",
+			"scheme" : "directory",
+			"srcConfig" : 
+			{
+        		"inline" : 
+        		{
+        			"mapper" :
+        			{
+        				"pattern" : "${NAME}.tif",
+        				"dimensions" : ["NAME"]
+        			},
+        			"ignore" : true,
+        			"selfConfig" : false
+        		}
+        	}
+        }
+	},
+	
+	"outputs" : 
+	{
+		"imagesOut" : 
+		{
+			"location" : "output/",
+			"scheme" : "directory",
+			"srcConfig":
+			{
+            	"inline":
+            	{
+            		"mapper":
+            		{
+						"pattern":"${NAME}_class.tif",
+                  		"dimensions":["NAME"]
+               		},
+               		"selfConfig":false
+               	}
+			}
+		}
+	}
+}

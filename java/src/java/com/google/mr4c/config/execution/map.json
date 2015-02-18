@@ -1,0 +1,16 @@
+{
+	"dimensions" : [
+		{
+			"name" : "dsname1",
+			"mapTo" : "algoname1", // optional
+		},
+		{
+			"name" : "dsname2",
+			"values" : [
+				{
+					"name" : "dsname1"
+					"mapTo" : "algoname1"
+				}
+		}
+	]
+}

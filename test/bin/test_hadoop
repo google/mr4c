@@ -1,0 +1,12 @@
+#!/bin/bash
+
+SERVICES=`ls /etc/init.d/hadoop-* |grep -v proxy`
+
+for s in $SERVICES
+do
+    sudo service `basename $s` status
+    if [ $? -ne 0 ]; then
+	echo "ERROR: $s is not running.  Starting:"
+	sudo service $s start
+    fi
+done

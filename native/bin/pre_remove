@@ -1,0 +1,6 @@
+#!/bin/bash
+
+rm -f /usr/local/lib/libmr4c.so
+rm -f /usr/include/mr4c
+rm -f /etc/ld.so.conf.d/mr4c-ld.conf
+rm -f /etc/mr4c/log4cxx.properties

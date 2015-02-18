@@ -1,0 +1,61 @@
+{
+	"algoConfig" : 
+	{
+		"inline" : 
+		{
+			"artifact" : "Map",
+          	"name" : "map",
+          	"type" : "NATIVEC",
+          	"extras" : ["gdal"],
+          	"dimensions" : [
+          	{
+          		"name" : "NAME",
+          		"canSplit" : true
+          	}
+          	]
+        }
+	},
+	
+	"inputs" : 
+	{
+		"imagesIn" : 
+		{
+			"location" : "hdfs://localhost:8020/user/mr4c/skysatIn",
+			"scheme" : "directory",
+			"srcConfig" : 
+			{
+        		"inline" : 
+        		{
+        			"mapper" :
+        			{
+        				"pattern" : "${NAME}.tif",
+        				"dimensions" : ["NAME"]
+        			},
+        			"ignore" : true,
+     			"selfConfig" : false
+        		}
+        	}
+        }
+	},
+	
+	"outputs" : 
+	{
+		"hist" : 
+		{
+			"location" : "hdfs://localhost:8020/user/mr4c/skysatReduce",
+			"scheme" : "directory",
+			"srcConfig":
+			{
+         	"inline":
+         	{
+         		"mapper":
+         		{
+					"pattern":"${NAME}_hist",
+               		"dimensions":["NAME"]
+            	},
+            		"selfConfig":true
+            }
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+THIS=`readlink -f $0`
+BIN=`dirname $THIS`
+MR4C_NATIVE=`dirname $BIN`
+
+ln -s -f $MR4C_NATIVE/dist/libmr4c.so /usr/local/lib/libmr4c.so
+ln -s -f $MR4C_NATIVE/include /usr/include/mr4c
+ln -s -f $MR4C_NATIVE/conf/mr4c-ld.conf /etc/ld.so.conf.d/mr4c-ld.conf
+mkdir -p /etc/mr4c
+ln -s -f $MR4C_NATIVE/conf/log4cxx.properties /etc/mr4c/log4cxx.properties
+
+/sbin/ldconfig

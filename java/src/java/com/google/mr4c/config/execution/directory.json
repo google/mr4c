@@ -1,0 +1,9 @@
+{
+	"mapper" : {
+		"pattern" : "file pattern",
+		"dimensions" : [ "dim1", "dim2" ]
+	}
+	"mappers" : [ // list of mapper
+	]
+	"ignore" : "boolean to ignore files that don't match"
+}

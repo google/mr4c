@@ -1,0 +1,9 @@
+{
+        "algoConfig" : {
+          "inline" : {
+              "name" : "HelloWorld",
+              "type" : "NATIVEC",
+              "artifact" : "HelloWorld"
+          }
+        }
+}

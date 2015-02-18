@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<project name="mr4c-native-geo" default="build" >
+
+	<description>Build and test the Native MR4C geospatial project.</description>
+
+	<property file="build.local.properties" />
+	<property file="build.properties" />
+
+	<!-- TARGET: build -->
+	<target name="build" depends="clean, build-test, run-tests, lib, build-cover" />
+
+	<!-- TARGET: clean -->
+	<target name="clean" >
+		<exec executable="make" failonerror="true">
+			<arg value="clean"/>
+		</exec>
+	</target>
+
+	<!-- TARGET: init -->
+	<target name="init" >
+		<exec executable="make" failonerror="true">
+			<arg value="init"/>
+		</exec>
+	</target>
+
+	<!-- TARGET: compile -->
+	<target name="compile" depends="init, do-compile" />
+
+	<!-- TARGET: do-compile -->
+	<target name="do-compile" >
+		<exec executable="make" failonerror="true">
+			<arg value="do_compile"/>
+		</exec>
+	</target>
+
+
+	<!-- TARGET: build-cover -->
+	<target name="build-cover" depends="init, compile, do-build-cover" />
+
+	<!-- TARGET: do-build-cover -->
+	<target name="do-build-cover" >
+		<exec executable="make" failonerror="true">
+			<arg value="do_cover"/>
+		</exec>
+	</target>
+
+
+	<!-- TARGET: build-test -->
+	<target name="build-test" depends="init, compile, do-build-test" />
+
+	<!-- TARGET: do-build-test -->
+	<target name="do-build-test" >
+		<exec executable="make" failonerror="true">
+			<arg value="do_test"/>
+		</exec>
+	</target>
+
+
+	<!-- TARGET: lib -->
+	<target name="lib" depends="init, compile, do-lib" />
+
+	<!-- TARGET: do-lib -->
+	<target name="do-lib" >
+		<exec executable="make" failonerror="true">
+			<arg value="do_lib"/>
+		</exec>
+	</target>
+
+
+	<!-- TARGET: docs -->
+	<target name="docs" depends="init, do-docs" />
+
+	<!-- TARGET: do-docs -->
+	<target name="do-docs" >
+		<exec executable="make" failonerror="true">
+			<arg value="do_docs"/>
+		</exec>
+	</target>
+
+
+	<!-- TARGET: run-tests -->
+	<target name="run-tests" >
+		<exec executable="${tools.dir}/run_tests" failonerror="true">
+			<env key="LD_LIBRARY_PATH" value="${mr4c.native.lib.dir}" />
+		</exec>
+	</target>
+
+	<!-- TARGET: run-coverage -->
+	<target name="run-coverage" >
+		<exec executable="${tools.dir}/run_coverage" failonerror="true">
+			<env key="LD_LIBRARY_PATH" value="${mr4c.native.lib.dir}" />
+		</exec>
+	</target>
+
+</project>
+
+

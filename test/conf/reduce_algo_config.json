@@ -1,0 +1,31 @@
+{
+    "algoConfig" : {
+        "inline" : {
+    		 "name" : "avg_pixel_reduce",
+    		 "type" : "NATIVEC",
+		 "artifact" : "histogram",
+		 "extras" : [ "openjpeg", "libopenjpeg.so.1" ],
+		 "dimensions" : [ 
+        	 {
+            	 "name" : "NAME",
+            	 "canSplit" : false
+        	 }
+    		 ]
+
+
+	}
+    },
+    "inputs" : {
+        "intermediate_avg_pixels" : {
+            "scheme" : "directory",
+            "location" : "${avginputdir}"
+        }
+    },
+
+    "outputs" : {
+        "avg_pixels" : {
+            "scheme" : "binary",
+            "location" : "${avgoutputdir}/avg_pixels.csv"
+        }
+    }
+}

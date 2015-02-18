@@ -1,0 +1,27 @@
+{
+	"algoConfig" : {
+		"inline" : {
+			"name" : "mbtiler",
+			"type" : "NATIVEC",
+			"artifact" : "mr4cgeo"
+		}
+	},
+
+	"inputs" : {
+		"input" : {
+			"scheme" : "binary",
+			"location" : "${input.loc}"
+		}
+	},
+
+	"outputs" : {
+		"output" : {
+			"scheme" : "mbtiles",
+			"location" : "${output.loc}"
+		}
+	}
+
+}
+
+
+

@@ -1,0 +1,60 @@
+{
+	"algoConfig" : 
+	{
+		"inline" : 
+		{
+			"artifact" : "RandomAccess",
+          	"name" : "RandomAccess",
+          	"type" : "NATIVEC",
+          	"dimensions" : [
+          	{
+          		"name" : "NAME",
+          		"canSplit" : true
+          	}
+          	]
+        }
+	},
+	
+	"inputs" : 
+	{
+		"imagesIn" : 
+		{
+			"location" : "hdfs://localhost:8020/user/mr4c/skysatIn",
+			"scheme" : "directory",
+			"srcConfig" : 
+			{
+        		"inline" : 
+        		{
+        			"mapper" :
+        			{
+        				"pattern" : "${NAME}.tif",
+        				"dimensions" : ["NAME"]
+        			},
+        			"ignore" : true,
+     			"selfConfig" : false
+        		}
+        	}
+        }
+	},
+	
+	"outputs" : 
+	{
+		"imagesOut" : 
+		{
+			"location" : "hdfs://localhost:8020/user/mr4c/skysatOut",
+			"scheme" : "directory",
+			"srcConfig":
+			{
+         	"inline":
+         	{
+         		"mapper":
+         		{
+					"pattern":"${NAME}_out",
+               		"dimensions":["NAME"]
+            	},
+            		"selfConfig":true
+            }
+			}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+THIS=`readlink -f $0`
+BIN=`dirname $THIS`
+MR4C_GEO=`dirname $BIN`
+
+ln -s -f $MR4C_GEO/dist/libmr4cgeo.so /usr/local/lib/libmr4cgeo.so
+ln -s -f $MR4C_GEO/include /usr/include/mr4c_geospatial
+ln -s -f $MR4C_GEO/conf/mr4c-ld.conf /etc/ld.so.conf.d/mr4c-geo-ld.conf
+
+/sbin/ldconfig

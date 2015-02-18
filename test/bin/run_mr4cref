@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# vars
+NN=hdfs://localhost:8020
+
+# remove output directories
+hdfs dfs -rm -r $NN/user/$USER/mr4c_output $NN/user/$USER/mr4c_avgoutput
+
+# mapper
+export MR4C_SITE=./conf/site.json; LD_LIBRARY_PATH=$LD_LIBRARY_PATH:./dist:/usr/local/lib mr4c_hadoop_remote ./conf/algo_config.json inputdir=$NN/user/$USER/mr4c_input outputdir=$NN/user/$USER/mr4c_output avgoutputdir=$NN/user/$USER/mr4c_avgoutput local
+
+if [ $? -ne 0 ]; then
+    echo "ERROR: mapper failed.  Run bin/test_hadoop tool to ensure all services are running"
+    exit 1
+else
+    echo "Mapper ran successfully.  Will begin reduce step in moment."
+fi
+
+sleep 5
+
+# reducer
+export MR4C_SITE=./conf/site.json; LD_LIBRARY_PATH=$LD_LIBRARY_PATH:./dist:/usr/local/lib mr4c_hadoop_remote ./conf/reduce_algo_config.json avginputdir=$NN/user/$USER/mr4c_avgoutput avgoutputdir=$NN/user/$USER/mr4c_avgoutput local
+
+if [ $? -eq 0 ]; then
+    echo "SUCCESS: Hadoop MR4C job ran successfully.  You may verify the output by running the bin/check_mr4c_output tool"
+    exit 0
+else
+    echo "ERROR: reducer failed. Perhaps the output directory was not cleared out first?"
+    exit 1
+fi

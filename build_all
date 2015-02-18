@@ -1,0 +1,16 @@
+#!/bin/bash
+
+set -e
+
+cd native
+make
+cd ..
+
+cd geospatial
+make
+cd ..
+
+cd java
+tools/build_yarn
+cd ..
+

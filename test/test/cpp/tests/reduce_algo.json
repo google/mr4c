@@ -1,0 +1,13 @@
+{
+    "name" : "avg_pixel_reduce",
+    "type" : "NATIVEC",
+    "artifact" : "histogram",
+    "dimensions" : [ 
+        {
+            "name" : "NAME",
+            "canSplit" : false
+        }
+    ]
+
+
+}

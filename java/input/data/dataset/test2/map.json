@@ -1,0 +1,26 @@
+{
+	"dimensions" : [
+		{
+			"name" : "frame",
+			"mapTo" : "FRAME"
+		},
+		{
+			"name" : "sensor",
+			"mapTo" : "SENSOR"
+		},
+		{
+			"name" : "type",
+			"mapTo" : "IMAGE_TYPE",
+			"values" : [
+				{
+					"name" : "MS",
+					"mapTo" : "MULTISPECTRAL"
+				},
+				{
+					"name" : "PAN",
+					"mapTo" : "PANCHROMATIC"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,17 @@
+#!/bin/bash
+
+THIS=`readlink -f $0`
+BIN=`dirname $THIS`
+MR4C_JAVA=`dirname $BIN`
+
+ln -s -f $MR4C_JAVA/bin/mr4c /usr/local/bin/mr4c
+ln -s -f $MR4C_JAVA/bin/mr4c_debug /usr/local/bin/mr4c_debug
+ln -s -f $MR4C_JAVA/bin/mr4c_hadoop /usr/local/bin/mr4c_hadoop
+ln -s -f $MR4C_JAVA/bin/mr4c_hadoop_remote /usr/local/bin/mr4c_hadoop_remote
+ln -s -f $MR4C_JAVA/bin/mr4c_diff /usr/local/bin/mr4c_diff
+ln -s -f $MR4C_JAVA/bin/mr4c_test /usr/local/bin/mr4c_test
+
+mkdir -p /etc/mr4c
+ln -s -f $MR4C_JAVA/conf/log4j.properties /etc/mr4c/log4j.properties
+ln -s -f $MR4C_JAVA/conf/site.json /etc/mr4c/site.json
+ln -s -f $MR4C_JAVA/conf/mr4c-hadoop-site.xml /etc/mr4c/mr4c-hadoop-site.xml

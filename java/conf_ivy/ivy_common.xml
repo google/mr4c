@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<ivy-module version="2.0">
+
+	<info organisation="com.google" module="mr4c_java_common" />
+
+	<dependencies>
+
+		<!-- Latest is 4.x, but need to stay on 3.4.0 because jnaerator depends on that version -->
+		<dependency org="net.java.dev.jna" name="jna" rev="3.4.0" >
+			<artifact name="jna" type="jar" />
+		</dependency>
+
+		<dependency org="com.nativelibs4java" name="jnaerator" rev="0.11">
+			<artifact name="jnaerator" type="jar" />
+			<exclude name="slf4j-jdk14" />
+		</dependency>
+
+		<dependency org="org.apache.commons" name="commons-lang3" rev="3.3.2">
+			<artifact name="commons-lang3" type="jar" />
+		</dependency>
+
+		<dependency org="commons-io" name="commons-io" rev="2.4" >
+			<artifact name="commons-io" type="jar" />
+		</dependency>
+
+		<dependency org="commons-collections" name="commons-collections" rev="3.2.1" >
+			<artifact name="commons-collections" type="jar" />
+		</dependency>
+
+		<dependency org="com.google.code.gson" name="gson" rev="2.2.4" >
+			<artifact name="gson" type="jar" />
+		</dependency>
+
+		<dependency org="junit" name="junit" rev="4.11" >
+			<artifact name="junit" type="jar" />
+		</dependency>
+
+		<dependency org="org.slf4j" name="slf4j-log4j12" rev="1.7.7" >
+			<artifact name="slf4j-log4j12" type="jar" />
+		</dependency>
+
+		<dependency org="log4j" name="log4j" rev="1.2.17" >
+			<artifact name="log4j" type="jar" />
+		</dependency>
+
+
+		<dependency org="org.apache.httpcomponents" name="httpclient" rev="4.3.5" >
+			<artifact name="httpclient" type="jar" />
+		</dependency>
+
+		<dependency org="org.xerial" name="sqlite-jdbc" rev="3.7.2" >
+			<artifact name="sqlite-jdbc" type="jar" />
+		</dependency>
+
+	</dependencies>
+
+</ivy-module>
+

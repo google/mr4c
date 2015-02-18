@@ -1,0 +1,12 @@
+{
+	"scheme" : "directory, collection, etc.",
+	"location" : "URI understood by the scheme",
+	"srcConfig" : {
+		"name" : "named config",
+		"file" : "URI to a config file"
+	},
+	"mapConfig" : {
+		"name" : "named config",
+		"file" : "URI to a config file"
+	}
+}

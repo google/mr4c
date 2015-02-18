@@ -1,0 +1,5 @@
+{
+    "name" : "histogram",
+    "type" : "NATIVEC",
+    "artifact" : "histogram"
+}

@@ -1,0 +1,3821 @@
+{
+  "metadata": {
+    "copyright": "© 2014 Google, Inc.",
+    "collectionID": 92,
+    "collectionStartTime": "2014-01-20T16:11:25Z",
+    "collectionEndTime": "2014-01-20T16:11:35Z",
+    "satelliteID": "s01",
+    "satelliteName": "SkySat-1",
+    "collectionType": "Point",
+    "satelliteElevationAngleMin": "73.756160",
+    "satelliteElevationAngleMean": "76.239828",
+    "satelliteElevationAngleMax": "78.167720",
+    "satelliteAzimuthAngleMin": "196.889885",
+    "satelliteAzimuthAngleMean": "197.459927",
+    "satelliteAzimuthAngleMax": "197.946920",
+    "upperLeftLatitude": "39.004890",
+    "upperLeftLongitude": "-77.104332",
+    "lowerRightLatitude": "38.839348",
+    "lowerRightLongitude": "-76.974716",
+    "solarElevationAngle": "28.981619",
+    "solarAzimuthAngle": "161.802322",
+    "panchromaticGSDMean": "0.86",
+    "panchromaticGSDUnits": "meters",
+    "multispectralGSDMean": "2.15",
+    "multispectralGSDUnits": "meters",
+    "rpcModel": true,
+    "rigorousModel": true,
+    "rpcHorizontalCoordinateSystem": "EPSG:4326",
+    "rpcVerticalCoordinateSystem": "EPSG:5773"
+  },
+  "sensor": {
+    "satelliteID": "s01",
+    "satelliteName": "SkySat-1",
+    "sensorCount": 15,
+    "linearUnits": "meters",
+    "angularUnits": "degrees",
+    "sensors": [
+      {
+        "sensorID": 1,
+        "sensorModelID": 1,
+        "sensorName": "s01_d1",
+        "sensorModelDefinitionDate": "2014-01-12",
+        "sensorType": "MS",
+        "focalLength": 3.6000000000000001,
+        "pixelSize": 1.2999999999999999e-05,
+        "rows": 1280,
+        "cols": 540,
+        "centerX": 640,
+        "centerY": 270,
+        "mechanicalDepartureParameters": [
+          0.00051999999999999995,
+          0.015664999999999998,
+          -3.6000000000000001,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radialDistortionParameters": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "tangentialDistortionParameters": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "sensorID": 2,
+        "sensorModelID": 2,
+        "sensorName": "s01_d2",
+        "sensorModelDefinitionDate": "2014-01-12",
+        "sensorType": "MS",
+        "focalLength": 3.6000000000000001,
+        "pixelSize": 1.2999999999999999e-05,
+        "rows": 1280,
+        "cols": 540,
+        "centerX": 640,
+        "centerY": 270,
+        "mechanicalDepartureParameters": [
+          -0.021866,
+          0.0,
+          -3.6000000000000001,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radialDistortionParameters": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "tangentialDistortionParameters": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "sensorID": 3,
+        "sensorModelID": 3,
+        "sensorName": "s01_d3",
+        "sensorModelDefinitionDate": "2014-01-12",
+        "sensorType": "MS",
+        "focalLength": 3.6000000000000001,
+        "pixelSize": 1.2999999999999999e-05,
+        "rows": 1280,
+        "cols": 540,
+        "centerX": 640,
+        "centerY": 270,
+        "mechanicalDepartureParameters": [
+          0.00051999999999999995,
+          -0.015664999999999998,
+          -3.6000000000000001,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radialDistortionParameters": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "tangentialDistortionParameters": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "sensorID": 1,
+        "sensorModelID": 4,
+        "sensorName": "s01_d1",
+        "sensorModelDefinitionDate": "2014-01-12",
+        "sensorType": "PAN",
+        "focalLength": 3.6000000000000001,
+        "pixelSize": 5.2000000000000002e-06,
+        "rows": 3199,
+        "cols": 1349,
+        "centerX": 1599,
+        "centerY": 674,
+        "mechanicalDepartureParameters": [
+          0.00051480000000000004,
+          0.015670199999999999,
+          -3.6000000000000001,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radialDistortionParameters": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "tangentialDistortionParameters": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "sensorID": 2,
+        "sensorModelID": 5,
+        "sensorName": "s01_d2",
+        "sensorModelDefinitionDate": "2014-01-12",
+        "sensorType": "PAN",
+        "focalLength": 3.6000000000000001,
+        "pixelSize": 5.2000000000000002e-06,
+        "rows": 3199,
+        "cols": 1349,
+        "centerX": 1599,
+        "centerY": 674,
+        "mechanicalDepartureParameters": [
+          -0.0218712,
+          5.2000000000000002e-06,
+          -3.6000000000000001,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radialDistortionParameters": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "tangentialDistortionParameters": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "sensorID": 3,
+        "sensorModelID": 6,
+        "sensorName": "s01_d3",
+        "sensorModelDefinitionDate": "2014-01-12",
+        "sensorType": "PAN",
+        "focalLength": 3.6000000000000001,
+        "pixelSize": 5.2000000000000002e-06,
+        "rows": 3199,
+        "cols": 1349,
+        "centerX": 1599,
+        "centerY": 674,
+        "mechanicalDepartureParameters": [
+          0.00051480000000000004,
+          -0.015659800000000001,
+          -3.6000000000000001,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radialDistortionParameters": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "tangentialDistortionParameters": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "sensorID": 1,
+        "sensorModelID": 7,
+        "sensorName": "s01_d1",
+        "sensorModelDefinitionDate": "2014-01-12",
+        "sensorType": "RGB-PS",
+        "focalLength": 3.6000000000000001,
+        "pixelSize": 5.2000000000000002e-06,
+        "rows": 3199,
+        "cols": 1349,
+        "centerX": 1599,
+        "centerY": 674,
+        "mechanicalDepartureParameters": [
+          0.00051480000000000004,
+          0.015670199999999999,
+          -3.6000000000000001,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radialDistortionParameters": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "tangentialDistortionParameters": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "sensorID": 2,
+        "sensorModelID": 8,
+        "sensorName": "s01_d2",
+        "sensorModelDefinitionDate": "2014-01-12",
+        "sensorType": "RGB-PS",
+        "focalLength": 3.6000000000000001,
+        "pixelSize": 5.2000000000000002e-06,
+        "rows": 3199,
+        "cols": 1349,
+        "centerX": 1599,
+        "centerY": 674,
+        "mechanicalDepartureParameters": [
+          -0.0218712,
+          5.2000000000000002e-06,
+          -3.6000000000000001,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radialDistortionParameters": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "tangentialDistortionParameters": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "sensorID": 3,
+        "sensorModelID": 9,
+        "sensorName": "s01_d3",
+        "sensorModelDefinitionDate": "2014-01-12",
+        "sensorType": "RGB-PS",
+        "focalLength": 3.6000000000000001,
+        "pixelSize": 5.2000000000000002e-06,
+        "rows": 3199,
+        "cols": 1349,
+        "centerX": 1599,
+        "centerY": 674,
+        "mechanicalDepartureParameters": [
+          0.00051480000000000004,
+          -0.015659800000000001,
+          -3.6000000000000001,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radialDistortionParameters": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "tangentialDistortionParameters": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "sensorID": 1,
+        "sensorModelID": 10,
+        "sensorName": "s01_d1",
+        "sensorModelDefinitionDate": "2014-01-12",
+        "sensorType": "NRG-PS",
+        "focalLength": 3.6000000000000001,
+        "pixelSize": 5.2000000000000002e-06,
+        "rows": 3199,
+        "cols": 1349,
+        "centerX": 1599,
+        "centerY": 674,
+        "mechanicalDepartureParameters": [
+          0.00051480000000000004,
+          0.015670199999999999,
+          -3.6000000000000001,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radialDistortionParameters": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "tangentialDistortionParameters": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "sensorID": 2,
+        "sensorModelID": 11,
+        "sensorName": "s01_d2",
+        "sensorModelDefinitionDate": "2014-01-12",
+        "sensorType": "NRG-PS",
+        "focalLength": 3.6000000000000001,
+        "pixelSize": 5.2000000000000002e-06,
+        "rows": 3199,
+        "cols": 1349,
+        "centerX": 1599,
+        "centerY": 674,
+        "mechanicalDepartureParameters": [
+          -0.0218712,
+          5.2000000000000002e-06,
+          -3.6000000000000001,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radialDistortionParameters": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "tangentialDistortionParameters": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "sensorID": 3,
+        "sensorModelID": 12,
+        "sensorName": "s01_d3",
+        "sensorModelDefinitionDate": "2014-01-12",
+        "sensorType": "NRG-PS",
+        "focalLength": 3.6000000000000001,
+        "pixelSize": 5.2000000000000002e-06,
+        "rows": 3199,
+        "cols": 1349,
+        "centerX": 1599,
+        "centerY": 674,
+        "mechanicalDepartureParameters": [
+          0.00051480000000000004,
+          -0.015659800000000001,
+          -3.6000000000000001,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radialDistortionParameters": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "tangentialDistortionParameters": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "sensorID": 1,
+        "sensorModelID": 13,
+        "sensorName": "s01_d1",
+        "sensorModelDefinitionDate": "2014-01-12",
+        "sensorType": "BGRN-PS",
+        "focalLength": 3.6000000000000001,
+        "pixelSize": 5.2000000000000002e-06,
+        "rows": 3199,
+        "cols": 1349,
+        "centerX": 1599,
+        "centerY": 674,
+        "mechanicalDepartureParameters": [
+          0.00051480000000000004,
+          0.015670199999999999,
+          -3.6000000000000001,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radialDistortionParameters": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "tangentialDistortionParameters": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "sensorID": 2,
+        "sensorModelID": 14,
+        "sensorName": "s01_d2",
+        "sensorModelDefinitionDate": "2014-01-12",
+        "sensorType": "BGRN-PS",
+        "focalLength": 3.6000000000000001,
+        "pixelSize": 5.2000000000000002e-06,
+        "rows": 3199,
+        "cols": 1349,
+        "centerX": 1599,
+        "centerY": 674,
+        "mechanicalDepartureParameters": [
+          -0.0218712,
+          5.2000000000000002e-06,
+          -3.6000000000000001,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radialDistortionParameters": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "tangentialDistortionParameters": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "sensorID": 3,
+        "sensorModelID": 15,
+        "sensorName": "s01_d3",
+        "sensorModelDefinitionDate": "2014-01-12",
+        "sensorType": "BGRN-PS",
+        "focalLength": 3.6000000000000001,
+        "pixelSize": 5.2000000000000002e-06,
+        "rows": 3199,
+        "cols": 1349,
+        "centerX": 1599,
+        "centerY": 674,
+        "mechanicalDepartureParameters": [
+          0.00051480000000000004,
+          -0.015659800000000001,
+          -3.6000000000000001,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radialDistortionParameters": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "tangentialDistortionParameters": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "pansharp-bgrn": {
+    "folder": "pansharp",
+    "frameCount": 42,
+    "frames": [
+      {
+        "frameIndex": 1,
+        "exteriorOrientationParameters": [
+          -77.885755291609897,
+          40.130728810437169,
+          571329.66776449978,
+          -12.921859463166081,
+          -6.7681329871164424,
+          162.98125151644038
+        ],
+        "sensorID": 1,
+        "sensorModelID": 13,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d1_0001.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d1_0001_rpc.txt"
+      },
+      {
+        "frameIndex": 2,
+        "exteriorOrientationParameters": [
+          -77.901130307191877,
+          40.079825215084419,
+          571322.68512037769,
+          -12.487613964390864,
+          -6.8952087351647826,
+          163.04451594762514
+        ],
+        "sensorID": 1,
+        "sensorModelID": 13,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d1_0002.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d1_0002_rpc.txt"
+      },
+      {
+        "frameIndex": 3,
+        "exteriorOrientationParameters": [
+          -77.916490666249842,
+          40.028900320410948,
+          571315.6215262264,
+          -12.049918962410192,
+          -7.0188314913202543,
+          163.10922203382592
+        ],
+        "sensorID": 1,
+        "sensorModelID": 13,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d1_0003.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d1_0003_rpc.txt"
+      },
+      {
+        "frameIndex": 4,
+        "exteriorOrientationParameters": [
+          -77.931781599499132,
+          39.978201957697145,
+          571308.66324967146,
+          -11.609501368878192,
+          -7.1488275542867328,
+          163.17626155295849
+        ],
+        "sensorID": 1,
+        "sensorModelID": 13,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d1_0004.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d1_0004_rpc.txt"
+      },
+      {
+        "frameIndex": 5,
+        "exteriorOrientationParameters": [
+          -77.947135834011206,
+          39.927151375786401,
+          571301.74043704569,
+          -11.173442136542334,
+          -7.2914378666152073,
+          163.24427401807566
+        ],
+        "sensorID": 1,
+        "sensorModelID": 13,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d1_0005.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d1_0005_rpc.txt"
+      },
+      {
+        "frameIndex": 6,
+        "exteriorOrientationParameters": [
+          -77.962008917463933,
+          39.877642656055308,
+          571294.97884208616,
+          -10.742679513555245,
+          -7.4163864509944215,
+          163.31010092522894
+        ],
+        "sensorID": 1,
+        "sensorModelID": 13,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d1_0006.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d1_0006_rpc.txt"
+      },
+      {
+        "frameIndex": 7,
+        "exteriorOrientationParameters": [
+          -77.976837208781745,
+          39.828254926239765,
+          571288.26266541611,
+          -10.30288761530355,
+          -7.5339593819417736,
+          163.37393553279921
+        ],
+        "sensorID": 1,
+        "sensorModelID": 13,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d1_0007.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d1_0007_rpc.txt"
+      },
+      {
+        "frameIndex": 8,
+        "exteriorOrientationParameters": [
+          -77.991182341146327,
+          39.780427515391693,
+          571281.79146542773,
+          -9.8820860815161495,
+          -7.6521727239938588,
+          163.4357734716927
+        ],
+        "sensorID": 1,
+        "sensorModelID": 13,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d1_0008.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d1_0008_rpc.txt"
+      },
+      {
+        "frameIndex": 9,
+        "exteriorOrientationParameters": [
+          -78.005000678402624,
+          39.734353368947211,
+          571275.47861490585,
+          -8.9423952673480223,
+          -8.3750347270662981,
+          167.32800636785367
+        ],
+        "sensorID": 1,
+        "sensorModelID": 13,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d1_0009.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d1_0009_rpc.txt"
+      },
+      {
+        "frameIndex": 10,
+        "exteriorOrientationParameters": [
+          -78.018886264662783,
+          39.687924243725455,
+          571269.28881999385,
+          -8.5330014710555009,
+          -8.4619233596906902,
+          167.39315420121559
+        ],
+        "sensorID": 1,
+        "sensorModelID": 13,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d1_0010.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d1_0010_rpc.txt"
+      },
+      {
+        "frameIndex": 11,
+        "exteriorOrientationParameters": [
+          -78.033220334264399,
+          39.639952111224382,
+          571262.84476460703,
+          -8.1037731434219751,
+          -8.5389206280017245,
+          167.46269280094683
+        ],
+        "sensorID": 1,
+        "sensorModelID": 13,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d1_0011.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d1_0011_rpc.txt"
+      },
+      {
+        "frameIndex": 12,
+        "exteriorOrientationParameters": [
+          -78.047965394461173,
+          39.590573822820531,
+          571256.19661340024,
+          -7.6571995941112352,
+          -8.6366846327010744,
+          167.53377812572793
+        ],
+        "sensorID": 1,
+        "sensorModelID": 13,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d1_0012.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d1_0012_rpc.txt"
+      },
+      {
+        "frameIndex": 13,
+        "exteriorOrientationParameters": [
+          -78.062185750109748,
+          39.542950446933894,
+          571249.84467596468,
+          -7.228712000504542,
+          -8.738511998468157,
+          167.60335144703703
+        ],
+        "sensorID": 1,
+        "sensorModelID": 13,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d1_0013.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d1_0013_rpc.txt"
+      },
+      {
+        "frameIndex": 14,
+        "exteriorOrientationParameters": [
+          -78.070466972566052,
+          39.515164718477344,
+          571246.2230058955,
+          -6.9764166820440536,
+          -8.7955833122338092,
+          167.64494742333042
+        ],
+        "sensorID": 1,
+        "sensorModelID": 13,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d1_0014.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d1_0014_rpc.txt"
+      },
+      {
+        "frameIndex": 15,
+        "exteriorOrientationParameters": [
+          -77.885755560887574,
+          40.130728294746241,
+          571329.74179602135,
+          -12.921856830659429,
+          -6.7681335965871714,
+          162.98125196219991
+        ],
+        "sensorID": 2,
+        "sensorModelID": 14,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d2_0001.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d2_0001_rpc.txt"
+      },
+      {
+        "frameIndex": 16,
+        "exteriorOrientationParameters": [
+          -77.900663785922418,
+          40.081367931149835,
+          571322.93720321916,
+          -12.5009762568345,
+          -6.8913398473815386,
+          163.04260161172215
+        ],
+        "sensorID": 2,
+        "sensorModelID": 14,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d2_0002.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d2_0002_rpc.txt"
+      },
+      {
+        "frameIndex": 17,
+        "exteriorOrientationParameters": [
+          -77.915972734704866,
+          40.030671072559954,
+          571315.82030606642,
+          -12.062685430060659,
+          -7.0147153102471069,
+          163.10724161939316
+        ],
+        "sensorID": 2,
+        "sensorModelID": 14,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d2_0003.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d2_0003_rpc.txt"
+      },
+      {
+        "frameIndex": 18,
+        "exteriorOrientationParameters": [
+          -77.931316689771833,
+          39.979745649148384,
+          571308.91462251451,
+          -11.623075947814314,
+          -7.1448789885289408,
+          163.17415112331452
+        ],
+        "sensorID": 2,
+        "sensorModelID": 14,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d2_0004.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d2_0004_rpc.txt"
+      },
+      {
+        "frameIndex": 19,
+        "exteriorOrientationParameters": [
+          -77.946207705046447,
+          39.930237954614277,
+          571302.19176994916,
+          -11.200499682065807,
+          -7.2833084653748443,
+          163.23999332829493
+        ],
+        "sensorID": 2,
+        "sensorModelID": 14,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d2_0005.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d2_0005_rpc.txt"
+      },
+      {
+        "frameIndex": 20,
+        "exteriorOrientationParameters": [
+          -77.961081320015111,
+          39.880729447018204,
+          571295.39313160442,
+          -10.76971958372758,
+          -7.4087855797362572,
+          163.30588962068981
+        ],
+        "sensorID": 2,
+        "sensorModelID": 14,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d2_0006.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d2_0006_rpc.txt"
+      },
+      {
+        "frameIndex": 21,
+        "exteriorOrientationParameters": [
+          -77.975906424696319,
+          39.831359265785061,
+          571288.62375241797,
+          -10.32937290622057,
+          -7.5254221329957955,
+          163.37111808550094
+        ],
+        "sensorID": 2,
+        "sensorModelID": 14,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d2_0007.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d2_0007_rpc.txt"
+      },
+      {
+        "frameIndex": 22,
+        "exteriorOrientationParameters": [
+          -77.990204357651592,
+          39.783742753378412,
+          571282.13906339556,
+          -9.9101010252779407,
+          -7.6428777788971143,
+          163.42962646150639
+        ],
+        "sensorID": 2,
+        "sensorModelID": 14,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d2_0008.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d2_0008_rpc.txt"
+      },
+      {
+        "frameIndex": 23,
+        "exteriorOrientationParameters": [
+          -78.004105408026135,
+          39.737315889402737,
+          571275.85130535718,
+          -8.9650716899707774,
+          -8.3722790413485164,
+          167.32423451020031
+        ],
+        "sensorID": 2,
+        "sensorModelID": 14,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d2_0009.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d2_0009_rpc.txt"
+      },
+      {
+        "frameIndex": 24,
+        "exteriorOrientationParameters": [
+          -78.017992183752199,
+          39.690888250894218,
+          571269.62782644015,
+          -8.5604888221298712,
+          -8.454502077813979,
+          167.38779215265308
+        ],
+        "sensorID": 2,
+        "sensorModelID": 14,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d2_0010.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d2_0010_rpc.txt"
+      },
+      {
+        "frameIndex": 25,
+        "exteriorOrientationParameters": [
+          -78.032297751588615,
+          39.643039206968368,
+          571263.2504799189,
+          -8.1315904773584453,
+          -8.5327795162231883,
+          167.4581253887292
+        ],
+        "sensorID": 2,
+        "sensorModelID": 14,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d2_0011.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d2_0011_rpc.txt"
+      },
+      {
+        "frameIndex": 26,
+        "exteriorOrientationParameters": [
+          -78.046583260327409,
+          39.59520377911516,
+          571256.82915264647,
+          -7.6990930972586309,
+          -8.6270758809940329,
+          167.52699847403429
+        ],
+        "sensorID": 2,
+        "sensorModelID": 14,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d2_0012.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d2_0012_rpc.txt"
+      },
+      {
+        "frameIndex": 27,
+        "exteriorOrientationParameters": [
+          -78.06080484099266,
+          39.54758143721773,
+          571250.49468360562,
+          -7.2707501096758227,
+          -8.7289814999914128,
+          167.59644557182068
+        ],
+        "sensorID": 2,
+        "sensorModelID": 14,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d2_0013.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d2_0013_rpc.txt"
+      },
+      {
+        "frameIndex": 28,
+        "exteriorOrientationParameters": [
+          -78.070466972566052,
+          39.515164718477344,
+          571246.2230058955,
+          -6.9764166820440536,
+          -8.7955833122338092,
+          167.64494742333042
+        ],
+        "sensorID": 2,
+        "sensorModelID": 14,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d2_0014.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d2_0014_rpc.txt"
+      },
+      {
+        "frameIndex": 29,
+        "exteriorOrientationParameters": [
+          -77.885755560887574,
+          40.130728294746241,
+          571329.74179602135,
+          -12.921858704519025,
+          -6.7681330711680605,
+          162.98125166911177
+        ],
+        "sensorID": 3,
+        "sensorModelID": 15,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d3_0001.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d3_0001_rpc.txt"
+      },
+      {
+        "frameIndex": 30,
+        "exteriorOrientationParameters": [
+          -77.900663784487747,
+          40.081367298646434,
+          571322.87284520362,
+          -12.500976163034752,
+          -6.8913408300688577,
+          163.04260202561417
+        ],
+        "sensorID": 3,
+        "sensorModelID": 15,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d3_0002.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d3_0002_rpc.txt"
+      },
+      {
+        "frameIndex": 31,
+        "exteriorOrientationParameters": [
+          -77.915972736138556,
+          40.030671705539284,
+          571315.88459635526,
+          -12.062686419378213,
+          -7.0147151820037967,
+          163.10724062799858
+        ],
+        "sensorID": 3,
+        "sensorModelID": 15,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d3_0003.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d3_0003_rpc.txt"
+      },
+      {
+        "frameIndex": 32,
+        "exteriorOrientationParameters": [
+          -77.931316689771833,
+          39.979745649148384,
+          571308.91462251451,
+          -11.623075947814314,
+          -7.1448789885289408,
+          163.17415112331452
+        ],
+        "sensorID": 3,
+        "sensorModelID": 15,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d3_0004.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d3_0004_rpc.txt"
+      },
+      {
+        "frameIndex": 33,
+        "exteriorOrientationParameters": [
+          -77.9466715605991,
+          39.928695239793775,
+          571301.9584513912,
+          -11.186968563866785,
+          -7.287373266970361,
+          163.24213310532883
+        ],
+        "sensorID": 3,
+        "sensorModelID": 15,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d3_0005.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d3_0005_rpc.txt"
+      },
+      {
+        "frameIndex": 34,
+        "exteriorOrientationParameters": [
+          -77.961544824190483,
+          39.879185413007811,
+          571295.19810955692,
+          -10.756201293637066,
+          -7.4125868629701026,
+          163.30799436897311
+        ],
+        "sensorID": 3,
+        "sensorModelID": 15,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d3_0006.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d3_0006_rpc.txt"
+      },
+      {
+        "frameIndex": 35,
+        "exteriorOrientationParameters": [
+          -77.976369919805734,
+          39.829816338067516,
+          571288.42690299172,
+          -10.315555251322868,
+          -7.529132584551288,
+          163.37321447542422
+        ],
+        "sensorID": 3,
+        "sensorModelID": 15,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d3_0007.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d3_0007_rpc.txt"
+      },
+      {
+        "frameIndex": 36,
+        "exteriorOrientationParameters": [
+          -77.990719794561656,
+          39.781970616074979,
+          571281.96062836424,
+          -9.8956571679163776,
+          -7.6482567276995193,
+          163.43363396847136
+        ],
+        "sensorID": 3,
+        "sensorModelID": 15,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d3_0008.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d3_0008_rpc.txt"
+      },
+      {
+        "frameIndex": 37,
+        "exteriorOrientationParameters": [
+          -78.004538106663233,
+          39.735896633532029,
+          571275.7888073381,
+          -8.9561721985356222,
+          -8.3720747125959765,
+          167.32575437951067
+        ],
+        "sensorID": 3,
+        "sensorModelID": 15,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d3_0009.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d3_0009_rpc.txt"
+      },
+      {
+        "frameIndex": 38,
+        "exteriorOrientationParameters": [
+          -78.018425209502297,
+          39.689468322092324,
+          571269.48750179727,
+          -8.5467571108277909,
+          -8.4588542425441524,
+          167.39097952333302
+        ],
+        "sensorID": 3,
+        "sensorModelID": 15,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d3_0010.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d3_0010_rpc.txt"
+      },
+      {
+        "frameIndex": 39,
+        "exteriorOrientationParameters": [
+          -78.032759001378295,
+          39.641495596946754,
+          571262.97584226169,
+          -8.1176796759883896,
+          -8.5358511230041092,
+          167.4604095142239
+        ],
+        "sensorID": 3,
+        "sensorModelID": 15,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d3_0011.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d3_0011_rpc.txt"
+      },
+      {
+        "frameIndex": 40,
+        "exteriorOrientationParameters": [
+          -78.047043586896393,
+          39.593660631031547,
+          571256.64074902888,
+          -7.6851328222973114,
+          -8.6302798130016569,
+          167.52925751832814
+        ],
+        "sensorID": 3,
+        "sensorModelID": 15,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d3_0012.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d3_0012_rpc.txt"
+      },
+      {
+        "frameIndex": 41,
+        "exteriorOrientationParameters": [
+          -78.061265448235829,
+          39.546037606011758,
+          571250.24521191791,
+          -7.2567378640468778,
+          -8.7321584844786813,
+          167.59874681369698
+        ],
+        "sensorID": 3,
+        "sensorModelID": 15,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d3_0013.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d3_0013_rpc.txt"
+      },
+      {
+        "frameIndex": 42,
+        "exteriorOrientationParameters": [
+          -78.070467139353696,
+          39.515164080686219,
+          571246.15940712858,
+          -6.9764148344966301,
+          -8.7955848518253781,
+          167.64494727028446
+        ],
+        "sensorID": 3,
+        "sensorModelID": 15,
+        "frameName": "s01_20140120T161125Z_pansharp_bgrn_d3_0014.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_bgrn_d3_0014_rpc.txt"
+      }
+    ]
+  },
+  "multispectral": {
+    "folder": "multispectral",
+    "frameCount": 42,
+    "frames": [
+      {
+        "frameIndex": 1,
+        "exteriorOrientationParameters": [
+          -77.885755291609897,
+          40.130728810437169,
+          571329.66776449978,
+          -12.921859463166081,
+          -6.7681329871164424,
+          162.98125151644038
+        ],
+        "sensorID": 1,
+        "sensorModelID": 1,
+        "frameName": "s01_20140120T161125Z_ms_d1_0001.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d1_0001_rpc.txt"
+      },
+      {
+        "frameIndex": 2,
+        "exteriorOrientationParameters": [
+          -77.901130307191877,
+          40.079825215084419,
+          571322.68512037769,
+          -12.487613964390864,
+          -6.8952087351647826,
+          163.04451594762514
+        ],
+        "sensorID": 1,
+        "sensorModelID": 1,
+        "frameName": "s01_20140120T161125Z_ms_d1_0002.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d1_0002_rpc.txt"
+      },
+      {
+        "frameIndex": 3,
+        "exteriorOrientationParameters": [
+          -77.916490666249842,
+          40.028900320410948,
+          571315.6215262264,
+          -12.049918962410192,
+          -7.0188314913202543,
+          163.10922203382592
+        ],
+        "sensorID": 1,
+        "sensorModelID": 1,
+        "frameName": "s01_20140120T161125Z_ms_d1_0003.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d1_0003_rpc.txt"
+      },
+      {
+        "frameIndex": 4,
+        "exteriorOrientationParameters": [
+          -77.931781599499132,
+          39.978201957697145,
+          571308.66324967146,
+          -11.609501368878192,
+          -7.1488275542867328,
+          163.17626155295849
+        ],
+        "sensorID": 1,
+        "sensorModelID": 1,
+        "frameName": "s01_20140120T161125Z_ms_d1_0004.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d1_0004_rpc.txt"
+      },
+      {
+        "frameIndex": 5,
+        "exteriorOrientationParameters": [
+          -77.947135834011206,
+          39.927151375786401,
+          571301.74043704569,
+          -11.173442136542334,
+          -7.2914378666152073,
+          163.24427401807566
+        ],
+        "sensorID": 1,
+        "sensorModelID": 1,
+        "frameName": "s01_20140120T161125Z_ms_d1_0005.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d1_0005_rpc.txt"
+      },
+      {
+        "frameIndex": 6,
+        "exteriorOrientationParameters": [
+          -77.962008917463933,
+          39.877642656055308,
+          571294.97884208616,
+          -10.742679513555245,
+          -7.4163864509944215,
+          163.31010092522894
+        ],
+        "sensorID": 1,
+        "sensorModelID": 1,
+        "frameName": "s01_20140120T161125Z_ms_d1_0006.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d1_0006_rpc.txt"
+      },
+      {
+        "frameIndex": 7,
+        "exteriorOrientationParameters": [
+          -77.976837208781745,
+          39.828254926239765,
+          571288.26266541611,
+          -10.30288761530355,
+          -7.5339593819417736,
+          163.37393553279921
+        ],
+        "sensorID": 1,
+        "sensorModelID": 1,
+        "frameName": "s01_20140120T161125Z_ms_d1_0007.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d1_0007_rpc.txt"
+      },
+      {
+        "frameIndex": 8,
+        "exteriorOrientationParameters": [
+          -77.991182341146327,
+          39.780427515391693,
+          571281.79146542773,
+          -9.8820860815161495,
+          -7.6521727239938588,
+          163.4357734716927
+        ],
+        "sensorID": 1,
+        "sensorModelID": 1,
+        "frameName": "s01_20140120T161125Z_ms_d1_0008.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d1_0008_rpc.txt"
+      },
+      {
+        "frameIndex": 9,
+        "exteriorOrientationParameters": [
+          -78.005000678402624,
+          39.734353368947211,
+          571275.47861490585,
+          -8.9423952673480223,
+          -8.3750347270662981,
+          167.32800636785367
+        ],
+        "sensorID": 1,
+        "sensorModelID": 1,
+        "frameName": "s01_20140120T161125Z_ms_d1_0009.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d1_0009_rpc.txt"
+      },
+      {
+        "frameIndex": 10,
+        "exteriorOrientationParameters": [
+          -78.018886264662783,
+          39.687924243725455,
+          571269.28881999385,
+          -8.5330014710555009,
+          -8.4619233596906902,
+          167.39315420121559
+        ],
+        "sensorID": 1,
+        "sensorModelID": 1,
+        "frameName": "s01_20140120T161125Z_ms_d1_0010.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d1_0010_rpc.txt"
+      },
+      {
+        "frameIndex": 11,
+        "exteriorOrientationParameters": [
+          -78.033220334264399,
+          39.639952111224382,
+          571262.84476460703,
+          -8.1037731434219751,
+          -8.5389206280017245,
+          167.46269280094683
+        ],
+        "sensorID": 1,
+        "sensorModelID": 1,
+        "frameName": "s01_20140120T161125Z_ms_d1_0011.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d1_0011_rpc.txt"
+      },
+      {
+        "frameIndex": 12,
+        "exteriorOrientationParameters": [
+          -78.047965394461173,
+          39.590573822820531,
+          571256.19661340024,
+          -7.6571995941112352,
+          -8.6366846327010744,
+          167.53377812572793
+        ],
+        "sensorID": 1,
+        "sensorModelID": 1,
+        "frameName": "s01_20140120T161125Z_ms_d1_0012.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d1_0012_rpc.txt"
+      },
+      {
+        "frameIndex": 13,
+        "exteriorOrientationParameters": [
+          -78.062185750109748,
+          39.542950446933894,
+          571249.84467596468,
+          -7.228712000504542,
+          -8.738511998468157,
+          167.60335144703703
+        ],
+        "sensorID": 1,
+        "sensorModelID": 1,
+        "frameName": "s01_20140120T161125Z_ms_d1_0013.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d1_0013_rpc.txt"
+      },
+      {
+        "frameIndex": 14,
+        "exteriorOrientationParameters": [
+          -78.070466972566052,
+          39.515164718477344,
+          571246.2230058955,
+          -6.9764166820440536,
+          -8.7955833122338092,
+          167.64494742333042
+        ],
+        "sensorID": 1,
+        "sensorModelID": 1,
+        "frameName": "s01_20140120T161125Z_ms_d1_0014.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d1_0014_rpc.txt"
+      },
+      {
+        "frameIndex": 15,
+        "exteriorOrientationParameters": [
+          -77.885755560887574,
+          40.130728294746241,
+          571329.74179602135,
+          -12.921856830659429,
+          -6.7681335965871714,
+          162.98125196219991
+        ],
+        "sensorID": 2,
+        "sensorModelID": 2,
+        "frameName": "s01_20140120T161125Z_ms_d2_0001.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d2_0001_rpc.txt"
+      },
+      {
+        "frameIndex": 16,
+        "exteriorOrientationParameters": [
+          -77.900663785922418,
+          40.081367931149835,
+          571322.93720321916,
+          -12.5009762568345,
+          -6.8913398473815386,
+          163.04260161172215
+        ],
+        "sensorID": 2,
+        "sensorModelID": 2,
+        "frameName": "s01_20140120T161125Z_ms_d2_0002.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d2_0002_rpc.txt"
+      },
+      {
+        "frameIndex": 17,
+        "exteriorOrientationParameters": [
+          -77.915972734704866,
+          40.030671072559954,
+          571315.82030606642,
+          -12.062685430060659,
+          -7.0147153102471069,
+          163.10724161939316
+        ],
+        "sensorID": 2,
+        "sensorModelID": 2,
+        "frameName": "s01_20140120T161125Z_ms_d2_0003.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d2_0003_rpc.txt"
+      },
+      {
+        "frameIndex": 18,
+        "exteriorOrientationParameters": [
+          -77.931316689771833,
+          39.979745649148384,
+          571308.91462251451,
+          -11.623075947814314,
+          -7.1448789885289408,
+          163.17415112331452
+        ],
+        "sensorID": 2,
+        "sensorModelID": 2,
+        "frameName": "s01_20140120T161125Z_ms_d2_0004.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d2_0004_rpc.txt"
+      },
+      {
+        "frameIndex": 19,
+        "exteriorOrientationParameters": [
+          -77.946207705046447,
+          39.930237954614277,
+          571302.19176994916,
+          -11.200499682065807,
+          -7.2833084653748443,
+          163.23999332829493
+        ],
+        "sensorID": 2,
+        "sensorModelID": 2,
+        "frameName": "s01_20140120T161125Z_ms_d2_0005.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d2_0005_rpc.txt"
+      },
+      {
+        "frameIndex": 20,
+        "exteriorOrientationParameters": [
+          -77.961081320015111,
+          39.880729447018204,
+          571295.39313160442,
+          -10.76971958372758,
+          -7.4087855797362572,
+          163.30588962068981
+        ],
+        "sensorID": 2,
+        "sensorModelID": 2,
+        "frameName": "s01_20140120T161125Z_ms_d2_0006.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d2_0006_rpc.txt"
+      },
+      {
+        "frameIndex": 21,
+        "exteriorOrientationParameters": [
+          -77.975906424696319,
+          39.831359265785061,
+          571288.62375241797,
+          -10.32937290622057,
+          -7.5254221329957955,
+          163.37111808550094
+        ],
+        "sensorID": 2,
+        "sensorModelID": 2,
+        "frameName": "s01_20140120T161125Z_ms_d2_0007.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d2_0007_rpc.txt"
+      },
+      {
+        "frameIndex": 22,
+        "exteriorOrientationParameters": [
+          -77.990204357651592,
+          39.783742753378412,
+          571282.13906339556,
+          -9.9101010252779407,
+          -7.6428777788971143,
+          163.42962646150639
+        ],
+        "sensorID": 2,
+        "sensorModelID": 2,
+        "frameName": "s01_20140120T161125Z_ms_d2_0008.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d2_0008_rpc.txt"
+      },
+      {
+        "frameIndex": 23,
+        "exteriorOrientationParameters": [
+          -78.004105408026135,
+          39.737315889402737,
+          571275.85130535718,
+          -8.9650716899707774,
+          -8.3722790413485164,
+          167.32423451020031
+        ],
+        "sensorID": 2,
+        "sensorModelID": 2,
+        "frameName": "s01_20140120T161125Z_ms_d2_0009.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d2_0009_rpc.txt"
+      },
+      {
+        "frameIndex": 24,
+        "exteriorOrientationParameters": [
+          -78.017992183752199,
+          39.690888250894218,
+          571269.62782644015,
+          -8.5604888221298712,
+          -8.454502077813979,
+          167.38779215265308
+        ],
+        "sensorID": 2,
+        "sensorModelID": 2,
+        "frameName": "s01_20140120T161125Z_ms_d2_0010.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d2_0010_rpc.txt"
+      },
+      {
+        "frameIndex": 25,
+        "exteriorOrientationParameters": [
+          -78.032297751588615,
+          39.643039206968368,
+          571263.2504799189,
+          -8.1315904773584453,
+          -8.5327795162231883,
+          167.4581253887292
+        ],
+        "sensorID": 2,
+        "sensorModelID": 2,
+        "frameName": "s01_20140120T161125Z_ms_d2_0011.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d2_0011_rpc.txt"
+      },
+      {
+        "frameIndex": 26,
+        "exteriorOrientationParameters": [
+          -78.046583260327409,
+          39.59520377911516,
+          571256.82915264647,
+          -7.6990930972586309,
+          -8.6270758809940329,
+          167.52699847403429
+        ],
+        "sensorID": 2,
+        "sensorModelID": 2,
+        "frameName": "s01_20140120T161125Z_ms_d2_0012.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d2_0012_rpc.txt"
+      },
+      {
+        "frameIndex": 27,
+        "exteriorOrientationParameters": [
+          -78.06080484099266,
+          39.54758143721773,
+          571250.49468360562,
+          -7.2707501096758227,
+          -8.7289814999914128,
+          167.59644557182068
+        ],
+        "sensorID": 2,
+        "sensorModelID": 2,
+        "frameName": "s01_20140120T161125Z_ms_d2_0013.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d2_0013_rpc.txt"
+      },
+      {
+        "frameIndex": 28,
+        "exteriorOrientationParameters": [
+          -78.070466972566052,
+          39.515164718477344,
+          571246.2230058955,
+          -6.9764166820440536,
+          -8.7955833122338092,
+          167.64494742333042
+        ],
+        "sensorID": 2,
+        "sensorModelID": 2,
+        "frameName": "s01_20140120T161125Z_ms_d2_0014.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d2_0014_rpc.txt"
+      },
+      {
+        "frameIndex": 29,
+        "exteriorOrientationParameters": [
+          -77.885755560887574,
+          40.130728294746241,
+          571329.74179602135,
+          -12.921858704519025,
+          -6.7681330711680605,
+          162.98125166911177
+        ],
+        "sensorID": 3,
+        "sensorModelID": 3,
+        "frameName": "s01_20140120T161125Z_ms_d3_0001.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d3_0001_rpc.txt"
+      },
+      {
+        "frameIndex": 30,
+        "exteriorOrientationParameters": [
+          -77.900663784487747,
+          40.081367298646434,
+          571322.87284520362,
+          -12.500976163034752,
+          -6.8913408300688577,
+          163.04260202561417
+        ],
+        "sensorID": 3,
+        "sensorModelID": 3,
+        "frameName": "s01_20140120T161125Z_ms_d3_0002.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d3_0002_rpc.txt"
+      },
+      {
+        "frameIndex": 31,
+        "exteriorOrientationParameters": [
+          -77.915972736138556,
+          40.030671705539284,
+          571315.88459635526,
+          -12.062686419378213,
+          -7.0147151820037967,
+          163.10724062799858
+        ],
+        "sensorID": 3,
+        "sensorModelID": 3,
+        "frameName": "s01_20140120T161125Z_ms_d3_0003.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d3_0003_rpc.txt"
+      },
+      {
+        "frameIndex": 32,
+        "exteriorOrientationParameters": [
+          -77.931316689771833,
+          39.979745649148384,
+          571308.91462251451,
+          -11.623075947814314,
+          -7.1448789885289408,
+          163.17415112331452
+        ],
+        "sensorID": 3,
+        "sensorModelID": 3,
+        "frameName": "s01_20140120T161125Z_ms_d3_0004.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d3_0004_rpc.txt"
+      },
+      {
+        "frameIndex": 33,
+        "exteriorOrientationParameters": [
+          -77.9466715605991,
+          39.928695239793775,
+          571301.9584513912,
+          -11.186968563866785,
+          -7.287373266970361,
+          163.24213310532883
+        ],
+        "sensorID": 3,
+        "sensorModelID": 3,
+        "frameName": "s01_20140120T161125Z_ms_d3_0005.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d3_0005_rpc.txt"
+      },
+      {
+        "frameIndex": 34,
+        "exteriorOrientationParameters": [
+          -77.961544824190483,
+          39.879185413007811,
+          571295.19810955692,
+          -10.756201293637066,
+          -7.4125868629701026,
+          163.30799436897311
+        ],
+        "sensorID": 3,
+        "sensorModelID": 3,
+        "frameName": "s01_20140120T161125Z_ms_d3_0006.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d3_0006_rpc.txt"
+      },
+      {
+        "frameIndex": 35,
+        "exteriorOrientationParameters": [
+          -77.976369919805734,
+          39.829816338067516,
+          571288.42690299172,
+          -10.315555251322868,
+          -7.529132584551288,
+          163.37321447542422
+        ],
+        "sensorID": 3,
+        "sensorModelID": 3,
+        "frameName": "s01_20140120T161125Z_ms_d3_0007.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d3_0007_rpc.txt"
+      },
+      {
+        "frameIndex": 36,
+        "exteriorOrientationParameters": [
+          -77.990719794561656,
+          39.781970616074979,
+          571281.96062836424,
+          -9.8956571679163776,
+          -7.6482567276995193,
+          163.43363396847136
+        ],
+        "sensorID": 3,
+        "sensorModelID": 3,
+        "frameName": "s01_20140120T161125Z_ms_d3_0008.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d3_0008_rpc.txt"
+      },
+      {
+        "frameIndex": 37,
+        "exteriorOrientationParameters": [
+          -78.004538106663233,
+          39.735896633532029,
+          571275.7888073381,
+          -8.9561721985356222,
+          -8.3720747125959765,
+          167.32575437951067
+        ],
+        "sensorID": 3,
+        "sensorModelID": 3,
+        "frameName": "s01_20140120T161125Z_ms_d3_0009.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d3_0009_rpc.txt"
+      },
+      {
+        "frameIndex": 38,
+        "exteriorOrientationParameters": [
+          -78.018425209502297,
+          39.689468322092324,
+          571269.48750179727,
+          -8.5467571108277909,
+          -8.4588542425441524,
+          167.39097952333302
+        ],
+        "sensorID": 3,
+        "sensorModelID": 3,
+        "frameName": "s01_20140120T161125Z_ms_d3_0010.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d3_0010_rpc.txt"
+      },
+      {
+        "frameIndex": 39,
+        "exteriorOrientationParameters": [
+          -78.032759001378295,
+          39.641495596946754,
+          571262.97584226169,
+          -8.1176796759883896,
+          -8.5358511230041092,
+          167.4604095142239
+        ],
+        "sensorID": 3,
+        "sensorModelID": 3,
+        "frameName": "s01_20140120T161125Z_ms_d3_0011.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d3_0011_rpc.txt"
+      },
+      {
+        "frameIndex": 40,
+        "exteriorOrientationParameters": [
+          -78.047043586896393,
+          39.593660631031547,
+          571256.64074902888,
+          -7.6851328222973114,
+          -8.6302798130016569,
+          167.52925751832814
+        ],
+        "sensorID": 3,
+        "sensorModelID": 3,
+        "frameName": "s01_20140120T161125Z_ms_d3_0012.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d3_0012_rpc.txt"
+      },
+      {
+        "frameIndex": 41,
+        "exteriorOrientationParameters": [
+          -78.061265448235829,
+          39.546037606011758,
+          571250.24521191791,
+          -7.2567378640468778,
+          -8.7321584844786813,
+          167.59874681369698
+        ],
+        "sensorID": 3,
+        "sensorModelID": 3,
+        "frameName": "s01_20140120T161125Z_ms_d3_0013.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d3_0013_rpc.txt"
+      },
+      {
+        "frameIndex": 42,
+        "exteriorOrientationParameters": [
+          -78.070467139353696,
+          39.515164080686219,
+          571246.15940712858,
+          -6.9764148344966301,
+          -8.7955848518253781,
+          167.64494727028446
+        ],
+        "sensorID": 3,
+        "sensorModelID": 3,
+        "frameName": "s01_20140120T161125Z_ms_d3_0014.tif",
+        "rpcName": "s01_20140120T161125Z_ms_d3_0014_rpc.txt"
+      }
+    ]
+  },
+  "pansharp-nrg": {
+    "folder": "pansharp",
+    "frameCount": 42,
+    "frames": [
+      {
+        "frameIndex": 1,
+        "exteriorOrientationParameters": [
+          -77.885755291609897,
+          40.130728810437169,
+          571329.66776449978,
+          -12.921859463166081,
+          -6.7681329871164424,
+          162.98125151644038
+        ],
+        "sensorID": 1,
+        "sensorModelID": 10,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d1_0001.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d1_0001_rpc.txt"
+      },
+      {
+        "frameIndex": 2,
+        "exteriorOrientationParameters": [
+          -77.901130307191877,
+          40.079825215084419,
+          571322.68512037769,
+          -12.487613964390864,
+          -6.8952087351647826,
+          163.04451594762514
+        ],
+        "sensorID": 1,
+        "sensorModelID": 10,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d1_0002.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d1_0002_rpc.txt"
+      },
+      {
+        "frameIndex": 3,
+        "exteriorOrientationParameters": [
+          -77.916490666249842,
+          40.028900320410948,
+          571315.6215262264,
+          -12.049918962410192,
+          -7.0188314913202543,
+          163.10922203382592
+        ],
+        "sensorID": 1,
+        "sensorModelID": 10,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d1_0003.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d1_0003_rpc.txt"
+      },
+      {
+        "frameIndex": 4,
+        "exteriorOrientationParameters": [
+          -77.931781599499132,
+          39.978201957697145,
+          571308.66324967146,
+          -11.609501368878192,
+          -7.1488275542867328,
+          163.17626155295849
+        ],
+        "sensorID": 1,
+        "sensorModelID": 10,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d1_0004.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d1_0004_rpc.txt"
+      },
+      {
+        "frameIndex": 5,
+        "exteriorOrientationParameters": [
+          -77.947135834011206,
+          39.927151375786401,
+          571301.74043704569,
+          -11.173442136542334,
+          -7.2914378666152073,
+          163.24427401807566
+        ],
+        "sensorID": 1,
+        "sensorModelID": 10,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d1_0005.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d1_0005_rpc.txt"
+      },
+      {
+        "frameIndex": 6,
+        "exteriorOrientationParameters": [
+          -77.962008917463933,
+          39.877642656055308,
+          571294.97884208616,
+          -10.742679513555245,
+          -7.4163864509944215,
+          163.31010092522894
+        ],
+        "sensorID": 1,
+        "sensorModelID": 10,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d1_0006.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d1_0006_rpc.txt"
+      },
+      {
+        "frameIndex": 7,
+        "exteriorOrientationParameters": [
+          -77.976837208781745,
+          39.828254926239765,
+          571288.26266541611,
+          -10.30288761530355,
+          -7.5339593819417736,
+          163.37393553279921
+        ],
+        "sensorID": 1,
+        "sensorModelID": 10,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d1_0007.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d1_0007_rpc.txt"
+      },
+      {
+        "frameIndex": 8,
+        "exteriorOrientationParameters": [
+          -77.991182341146327,
+          39.780427515391693,
+          571281.79146542773,
+          -9.8820860815161495,
+          -7.6521727239938588,
+          163.4357734716927
+        ],
+        "sensorID": 1,
+        "sensorModelID": 10,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d1_0008.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d1_0008_rpc.txt"
+      },
+      {
+        "frameIndex": 9,
+        "exteriorOrientationParameters": [
+          -78.005000678402624,
+          39.734353368947211,
+          571275.47861490585,
+          -8.9423952673480223,
+          -8.3750347270662981,
+          167.32800636785367
+        ],
+        "sensorID": 1,
+        "sensorModelID": 10,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d1_0009.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d1_0009_rpc.txt"
+      },
+      {
+        "frameIndex": 10,
+        "exteriorOrientationParameters": [
+          -78.018886264662783,
+          39.687924243725455,
+          571269.28881999385,
+          -8.5330014710555009,
+          -8.4619233596906902,
+          167.39315420121559
+        ],
+        "sensorID": 1,
+        "sensorModelID": 10,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d1_0010.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d1_0010_rpc.txt"
+      },
+      {
+        "frameIndex": 11,
+        "exteriorOrientationParameters": [
+          -78.033220334264399,
+          39.639952111224382,
+          571262.84476460703,
+          -8.1037731434219751,
+          -8.5389206280017245,
+          167.46269280094683
+        ],
+        "sensorID": 1,
+        "sensorModelID": 10,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d1_0011.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d1_0011_rpc.txt"
+      },
+      {
+        "frameIndex": 12,
+        "exteriorOrientationParameters": [
+          -78.047965394461173,
+          39.590573822820531,
+          571256.19661340024,
+          -7.6571995941112352,
+          -8.6366846327010744,
+          167.53377812572793
+        ],
+        "sensorID": 1,
+        "sensorModelID": 10,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d1_0012.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d1_0012_rpc.txt"
+      },
+      {
+        "frameIndex": 13,
+        "exteriorOrientationParameters": [
+          -78.062185750109748,
+          39.542950446933894,
+          571249.84467596468,
+          -7.228712000504542,
+          -8.738511998468157,
+          167.60335144703703
+        ],
+        "sensorID": 1,
+        "sensorModelID": 10,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d1_0013.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d1_0013_rpc.txt"
+      },
+      {
+        "frameIndex": 14,
+        "exteriorOrientationParameters": [
+          -78.070466972566052,
+          39.515164718477344,
+          571246.2230058955,
+          -6.9764166820440536,
+          -8.7955833122338092,
+          167.64494742333042
+        ],
+        "sensorID": 1,
+        "sensorModelID": 10,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d1_0014.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d1_0014_rpc.txt"
+      },
+      {
+        "frameIndex": 15,
+        "exteriorOrientationParameters": [
+          -77.885755560887574,
+          40.130728294746241,
+          571329.74179602135,
+          -12.921856830659429,
+          -6.7681335965871714,
+          162.98125196219991
+        ],
+        "sensorID": 2,
+        "sensorModelID": 11,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d2_0001.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d2_0001_rpc.txt"
+      },
+      {
+        "frameIndex": 16,
+        "exteriorOrientationParameters": [
+          -77.900663785922418,
+          40.081367931149835,
+          571322.93720321916,
+          -12.5009762568345,
+          -6.8913398473815386,
+          163.04260161172215
+        ],
+        "sensorID": 2,
+        "sensorModelID": 11,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d2_0002.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d2_0002_rpc.txt"
+      },
+      {
+        "frameIndex": 17,
+        "exteriorOrientationParameters": [
+          -77.915972734704866,
+          40.030671072559954,
+          571315.82030606642,
+          -12.062685430060659,
+          -7.0147153102471069,
+          163.10724161939316
+        ],
+        "sensorID": 2,
+        "sensorModelID": 11,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d2_0003.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d2_0003_rpc.txt"
+      },
+      {
+        "frameIndex": 18,
+        "exteriorOrientationParameters": [
+          -77.931316689771833,
+          39.979745649148384,
+          571308.91462251451,
+          -11.623075947814314,
+          -7.1448789885289408,
+          163.17415112331452
+        ],
+        "sensorID": 2,
+        "sensorModelID": 11,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d2_0004.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d2_0004_rpc.txt"
+      },
+      {
+        "frameIndex": 19,
+        "exteriorOrientationParameters": [
+          -77.946207705046447,
+          39.930237954614277,
+          571302.19176994916,
+          -11.200499682065807,
+          -7.2833084653748443,
+          163.23999332829493
+        ],
+        "sensorID": 2,
+        "sensorModelID": 11,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d2_0005.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d2_0005_rpc.txt"
+      },
+      {
+        "frameIndex": 20,
+        "exteriorOrientationParameters": [
+          -77.961081320015111,
+          39.880729447018204,
+          571295.39313160442,
+          -10.76971958372758,
+          -7.4087855797362572,
+          163.30588962068981
+        ],
+        "sensorID": 2,
+        "sensorModelID": 11,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d2_0006.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d2_0006_rpc.txt"
+      },
+      {
+        "frameIndex": 21,
+        "exteriorOrientationParameters": [
+          -77.975906424696319,
+          39.831359265785061,
+          571288.62375241797,
+          -10.32937290622057,
+          -7.5254221329957955,
+          163.37111808550094
+        ],
+        "sensorID": 2,
+        "sensorModelID": 11,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d2_0007.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d2_0007_rpc.txt"
+      },
+      {
+        "frameIndex": 22,
+        "exteriorOrientationParameters": [
+          -77.990204357651592,
+          39.783742753378412,
+          571282.13906339556,
+          -9.9101010252779407,
+          -7.6428777788971143,
+          163.42962646150639
+        ],
+        "sensorID": 2,
+        "sensorModelID": 11,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d2_0008.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d2_0008_rpc.txt"
+      },
+      {
+        "frameIndex": 23,
+        "exteriorOrientationParameters": [
+          -78.004105408026135,
+          39.737315889402737,
+          571275.85130535718,
+          -8.9650716899707774,
+          -8.3722790413485164,
+          167.32423451020031
+        ],
+        "sensorID": 2,
+        "sensorModelID": 11,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d2_0009.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d2_0009_rpc.txt"
+      },
+      {
+        "frameIndex": 24,
+        "exteriorOrientationParameters": [
+          -78.017992183752199,
+          39.690888250894218,
+          571269.62782644015,
+          -8.5604888221298712,
+          -8.454502077813979,
+          167.38779215265308
+        ],
+        "sensorID": 2,
+        "sensorModelID": 11,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d2_0010.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d2_0010_rpc.txt"
+      },
+      {
+        "frameIndex": 25,
+        "exteriorOrientationParameters": [
+          -78.032297751588615,
+          39.643039206968368,
+          571263.2504799189,
+          -8.1315904773584453,
+          -8.5327795162231883,
+          167.4581253887292
+        ],
+        "sensorID": 2,
+        "sensorModelID": 11,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d2_0011.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d2_0011_rpc.txt"
+      },
+      {
+        "frameIndex": 26,
+        "exteriorOrientationParameters": [
+          -78.046583260327409,
+          39.59520377911516,
+          571256.82915264647,
+          -7.6990930972586309,
+          -8.6270758809940329,
+          167.52699847403429
+        ],
+        "sensorID": 2,
+        "sensorModelID": 11,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d2_0012.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d2_0012_rpc.txt"
+      },
+      {
+        "frameIndex": 27,
+        "exteriorOrientationParameters": [
+          -78.06080484099266,
+          39.54758143721773,
+          571250.49468360562,
+          -7.2707501096758227,
+          -8.7289814999914128,
+          167.59644557182068
+        ],
+        "sensorID": 2,
+        "sensorModelID": 11,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d2_0013.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d2_0013_rpc.txt"
+      },
+      {
+        "frameIndex": 28,
+        "exteriorOrientationParameters": [
+          -78.070466972566052,
+          39.515164718477344,
+          571246.2230058955,
+          -6.9764166820440536,
+          -8.7955833122338092,
+          167.64494742333042
+        ],
+        "sensorID": 2,
+        "sensorModelID": 11,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d2_0014.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d2_0014_rpc.txt"
+      },
+      {
+        "frameIndex": 29,
+        "exteriorOrientationParameters": [
+          -77.885755560887574,
+          40.130728294746241,
+          571329.74179602135,
+          -12.921858704519025,
+          -6.7681330711680605,
+          162.98125166911177
+        ],
+        "sensorID": 3,
+        "sensorModelID": 12,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d3_0001.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d3_0001_rpc.txt"
+      },
+      {
+        "frameIndex": 30,
+        "exteriorOrientationParameters": [
+          -77.900663784487747,
+          40.081367298646434,
+          571322.87284520362,
+          -12.500976163034752,
+          -6.8913408300688577,
+          163.04260202561417
+        ],
+        "sensorID": 3,
+        "sensorModelID": 12,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d3_0002.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d3_0002_rpc.txt"
+      },
+      {
+        "frameIndex": 31,
+        "exteriorOrientationParameters": [
+          -77.915972736138556,
+          40.030671705539284,
+          571315.88459635526,
+          -12.062686419378213,
+          -7.0147151820037967,
+          163.10724062799858
+        ],
+        "sensorID": 3,
+        "sensorModelID": 12,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d3_0003.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d3_0003_rpc.txt"
+      },
+      {
+        "frameIndex": 32,
+        "exteriorOrientationParameters": [
+          -77.931316689771833,
+          39.979745649148384,
+          571308.91462251451,
+          -11.623075947814314,
+          -7.1448789885289408,
+          163.17415112331452
+        ],
+        "sensorID": 3,
+        "sensorModelID": 12,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d3_0004.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d3_0004_rpc.txt"
+      },
+      {
+        "frameIndex": 33,
+        "exteriorOrientationParameters": [
+          -77.9466715605991,
+          39.928695239793775,
+          571301.9584513912,
+          -11.186968563866785,
+          -7.287373266970361,
+          163.24213310532883
+        ],
+        "sensorID": 3,
+        "sensorModelID": 12,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d3_0005.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d3_0005_rpc.txt"
+      },
+      {
+        "frameIndex": 34,
+        "exteriorOrientationParameters": [
+          -77.961544824190483,
+          39.879185413007811,
+          571295.19810955692,
+          -10.756201293637066,
+          -7.4125868629701026,
+          163.30799436897311
+        ],
+        "sensorID": 3,
+        "sensorModelID": 12,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d3_0006.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d3_0006_rpc.txt"
+      },
+      {
+        "frameIndex": 35,
+        "exteriorOrientationParameters": [
+          -77.976369919805734,
+          39.829816338067516,
+          571288.42690299172,
+          -10.315555251322868,
+          -7.529132584551288,
+          163.37321447542422
+        ],
+        "sensorID": 3,
+        "sensorModelID": 12,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d3_0007.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d3_0007_rpc.txt"
+      },
+      {
+        "frameIndex": 36,
+        "exteriorOrientationParameters": [
+          -77.990719794561656,
+          39.781970616074979,
+          571281.96062836424,
+          -9.8956571679163776,
+          -7.6482567276995193,
+          163.43363396847136
+        ],
+        "sensorID": 3,
+        "sensorModelID": 12,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d3_0008.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d3_0008_rpc.txt"
+      },
+      {
+        "frameIndex": 37,
+        "exteriorOrientationParameters": [
+          -78.004538106663233,
+          39.735896633532029,
+          571275.7888073381,
+          -8.9561721985356222,
+          -8.3720747125959765,
+          167.32575437951067
+        ],
+        "sensorID": 3,
+        "sensorModelID": 12,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d3_0009.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d3_0009_rpc.txt"
+      },
+      {
+        "frameIndex": 38,
+        "exteriorOrientationParameters": [
+          -78.018425209502297,
+          39.689468322092324,
+          571269.48750179727,
+          -8.5467571108277909,
+          -8.4588542425441524,
+          167.39097952333302
+        ],
+        "sensorID": 3,
+        "sensorModelID": 12,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d3_0010.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d3_0010_rpc.txt"
+      },
+      {
+        "frameIndex": 39,
+        "exteriorOrientationParameters": [
+          -78.032759001378295,
+          39.641495596946754,
+          571262.97584226169,
+          -8.1176796759883896,
+          -8.5358511230041092,
+          167.4604095142239
+        ],
+        "sensorID": 3,
+        "sensorModelID": 12,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d3_0011.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d3_0011_rpc.txt"
+      },
+      {
+        "frameIndex": 40,
+        "exteriorOrientationParameters": [
+          -78.047043586896393,
+          39.593660631031547,
+          571256.64074902888,
+          -7.6851328222973114,
+          -8.6302798130016569,
+          167.52925751832814
+        ],
+        "sensorID": 3,
+        "sensorModelID": 12,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d3_0012.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d3_0012_rpc.txt"
+      },
+      {
+        "frameIndex": 41,
+        "exteriorOrientationParameters": [
+          -78.061265448235829,
+          39.546037606011758,
+          571250.24521191791,
+          -7.2567378640468778,
+          -8.7321584844786813,
+          167.59874681369698
+        ],
+        "sensorID": 3,
+        "sensorModelID": 12,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d3_0013.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d3_0013_rpc.txt"
+      },
+      {
+        "frameIndex": 42,
+        "exteriorOrientationParameters": [
+          -78.070467139353696,
+          39.515164080686219,
+          571246.15940712858,
+          -6.9764148344966301,
+          -8.7955848518253781,
+          167.64494727028446
+        ],
+        "sensorID": 3,
+        "sensorModelID": 12,
+        "frameName": "s01_20140120T161125Z_pansharp_nrg_d3_0014.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_nrg_d3_0014_rpc.txt"
+      }
+    ]
+  },
+  "panchromatic": {
+    "folder": "panchromatic",
+    "frameCount": 42,
+    "frames": [
+      {
+        "frameIndex": 1,
+        "exteriorOrientationParameters": [
+          -77.885755291609897,
+          40.130728810437169,
+          571329.66776449978,
+          -12.921859463166081,
+          -6.7681329871164424,
+          162.98125151644038
+        ],
+        "sensorID": 1,
+        "sensorModelID": 4,
+        "frameName": "s01_20140120T161125Z_pan_d1_0001.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d1_0001_rpc.txt"
+      },
+      {
+        "frameIndex": 2,
+        "exteriorOrientationParameters": [
+          -77.901130307191877,
+          40.079825215084419,
+          571322.68512037769,
+          -12.487613964390864,
+          -6.8952087351647826,
+          163.04451594762514
+        ],
+        "sensorID": 1,
+        "sensorModelID": 4,
+        "frameName": "s01_20140120T161125Z_pan_d1_0002.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d1_0002_rpc.txt"
+      },
+      {
+        "frameIndex": 3,
+        "exteriorOrientationParameters": [
+          -77.916490666249842,
+          40.028900320410948,
+          571315.6215262264,
+          -12.049918962410192,
+          -7.0188314913202543,
+          163.10922203382592
+        ],
+        "sensorID": 1,
+        "sensorModelID": 4,
+        "frameName": "s01_20140120T161125Z_pan_d1_0003.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d1_0003_rpc.txt"
+      },
+      {
+        "frameIndex": 4,
+        "exteriorOrientationParameters": [
+          -77.931781599499132,
+          39.978201957697145,
+          571308.66324967146,
+          -11.609501368878192,
+          -7.1488275542867328,
+          163.17626155295849
+        ],
+        "sensorID": 1,
+        "sensorModelID": 4,
+        "frameName": "s01_20140120T161125Z_pan_d1_0004.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d1_0004_rpc.txt"
+      },
+      {
+        "frameIndex": 5,
+        "exteriorOrientationParameters": [
+          -77.947135834011206,
+          39.927151375786401,
+          571301.74043704569,
+          -11.173442136542334,
+          -7.2914378666152073,
+          163.24427401807566
+        ],
+        "sensorID": 1,
+        "sensorModelID": 4,
+        "frameName": "s01_20140120T161125Z_pan_d1_0005.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d1_0005_rpc.txt"
+      },
+      {
+        "frameIndex": 6,
+        "exteriorOrientationParameters": [
+          -77.962008917463933,
+          39.877642656055308,
+          571294.97884208616,
+          -10.742679513555245,
+          -7.4163864509944215,
+          163.31010092522894
+        ],
+        "sensorID": 1,
+        "sensorModelID": 4,
+        "frameName": "s01_20140120T161125Z_pan_d1_0006.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d1_0006_rpc.txt"
+      },
+      {
+        "frameIndex": 7,
+        "exteriorOrientationParameters": [
+          -77.976837208781745,
+          39.828254926239765,
+          571288.26266541611,
+          -10.30288761530355,
+          -7.5339593819417736,
+          163.37393553279921
+        ],
+        "sensorID": 1,
+        "sensorModelID": 4,
+        "frameName": "s01_20140120T161125Z_pan_d1_0007.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d1_0007_rpc.txt"
+      },
+      {
+        "frameIndex": 8,
+        "exteriorOrientationParameters": [
+          -77.991182341146327,
+          39.780427515391693,
+          571281.79146542773,
+          -9.8820860815161495,
+          -7.6521727239938588,
+          163.4357734716927
+        ],
+        "sensorID": 1,
+        "sensorModelID": 4,
+        "frameName": "s01_20140120T161125Z_pan_d1_0008.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d1_0008_rpc.txt"
+      },
+      {
+        "frameIndex": 9,
+        "exteriorOrientationParameters": [
+          -78.005000678402624,
+          39.734353368947211,
+          571275.47861490585,
+          -8.9423952673480223,
+          -8.3750347270662981,
+          167.32800636785367
+        ],
+        "sensorID": 1,
+        "sensorModelID": 4,
+        "frameName": "s01_20140120T161125Z_pan_d1_0009.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d1_0009_rpc.txt"
+      },
+      {
+        "frameIndex": 10,
+        "exteriorOrientationParameters": [
+          -78.018886264662783,
+          39.687924243725455,
+          571269.28881999385,
+          -8.5330014710555009,
+          -8.4619233596906902,
+          167.39315420121559
+        ],
+        "sensorID": 1,
+        "sensorModelID": 4,
+        "frameName": "s01_20140120T161125Z_pan_d1_0010.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d1_0010_rpc.txt"
+      },
+      {
+        "frameIndex": 11,
+        "exteriorOrientationParameters": [
+          -78.033220334264399,
+          39.639952111224382,
+          571262.84476460703,
+          -8.1037731434219751,
+          -8.5389206280017245,
+          167.46269280094683
+        ],
+        "sensorID": 1,
+        "sensorModelID": 4,
+        "frameName": "s01_20140120T161125Z_pan_d1_0011.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d1_0011_rpc.txt"
+      },
+      {
+        "frameIndex": 12,
+        "exteriorOrientationParameters": [
+          -78.047965394461173,
+          39.590573822820531,
+          571256.19661340024,
+          -7.6571995941112352,
+          -8.6366846327010744,
+          167.53377812572793
+        ],
+        "sensorID": 1,
+        "sensorModelID": 4,
+        "frameName": "s01_20140120T161125Z_pan_d1_0012.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d1_0012_rpc.txt"
+      },
+      {
+        "frameIndex": 13,
+        "exteriorOrientationParameters": [
+          -78.062185750109748,
+          39.542950446933894,
+          571249.84467596468,
+          -7.228712000504542,
+          -8.738511998468157,
+          167.60335144703703
+        ],
+        "sensorID": 1,
+        "sensorModelID": 4,
+        "frameName": "s01_20140120T161125Z_pan_d1_0013.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d1_0013_rpc.txt"
+      },
+      {
+        "frameIndex": 14,
+        "exteriorOrientationParameters": [
+          -78.070466972566052,
+          39.515164718477344,
+          571246.2230058955,
+          -6.9764166820440536,
+          -8.7955833122338092,
+          167.64494742333042
+        ],
+        "sensorID": 1,
+        "sensorModelID": 4,
+        "frameName": "s01_20140120T161125Z_pan_d1_0014.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d1_0014_rpc.txt"
+      },
+      {
+        "frameIndex": 15,
+        "exteriorOrientationParameters": [
+          -77.885755560887574,
+          40.130728294746241,
+          571329.74179602135,
+          -12.921856830659429,
+          -6.7681335965871714,
+          162.98125196219991
+        ],
+        "sensorID": 2,
+        "sensorModelID": 5,
+        "frameName": "s01_20140120T161125Z_pan_d2_0001.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d2_0001_rpc.txt"
+      },
+      {
+        "frameIndex": 16,
+        "exteriorOrientationParameters": [
+          -77.900663785922418,
+          40.081367931149835,
+          571322.93720321916,
+          -12.5009762568345,
+          -6.8913398473815386,
+          163.04260161172215
+        ],
+        "sensorID": 2,
+        "sensorModelID": 5,
+        "frameName": "s01_20140120T161125Z_pan_d2_0002.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d2_0002_rpc.txt"
+      },
+      {
+        "frameIndex": 17,
+        "exteriorOrientationParameters": [
+          -77.915972734704866,
+          40.030671072559954,
+          571315.82030606642,
+          -12.062685430060659,
+          -7.0147153102471069,
+          163.10724161939316
+        ],
+        "sensorID": 2,
+        "sensorModelID": 5,
+        "frameName": "s01_20140120T161125Z_pan_d2_0003.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d2_0003_rpc.txt"
+      },
+      {
+        "frameIndex": 18,
+        "exteriorOrientationParameters": [
+          -77.931316689771833,
+          39.979745649148384,
+          571308.91462251451,
+          -11.623075947814314,
+          -7.1448789885289408,
+          163.17415112331452
+        ],
+        "sensorID": 2,
+        "sensorModelID": 5,
+        "frameName": "s01_20140120T161125Z_pan_d2_0004.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d2_0004_rpc.txt"
+      },
+      {
+        "frameIndex": 19,
+        "exteriorOrientationParameters": [
+          -77.946207705046447,
+          39.930237954614277,
+          571302.19176994916,
+          -11.200499682065807,
+          -7.2833084653748443,
+          163.23999332829493
+        ],
+        "sensorID": 2,
+        "sensorModelID": 5,
+        "frameName": "s01_20140120T161125Z_pan_d2_0005.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d2_0005_rpc.txt"
+      },
+      {
+        "frameIndex": 20,
+        "exteriorOrientationParameters": [
+          -77.961081320015111,
+          39.880729447018204,
+          571295.39313160442,
+          -10.76971958372758,
+          -7.4087855797362572,
+          163.30588962068981
+        ],
+        "sensorID": 2,
+        "sensorModelID": 5,
+        "frameName": "s01_20140120T161125Z_pan_d2_0006.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d2_0006_rpc.txt"
+      },
+      {
+        "frameIndex": 21,
+        "exteriorOrientationParameters": [
+          -77.975906424696319,
+          39.831359265785061,
+          571288.62375241797,
+          -10.32937290622057,
+          -7.5254221329957955,
+          163.37111808550094
+        ],
+        "sensorID": 2,
+        "sensorModelID": 5,
+        "frameName": "s01_20140120T161125Z_pan_d2_0007.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d2_0007_rpc.txt"
+      },
+      {
+        "frameIndex": 22,
+        "exteriorOrientationParameters": [
+          -77.990204357651592,
+          39.783742753378412,
+          571282.13906339556,
+          -9.9101010252779407,
+          -7.6428777788971143,
+          163.42962646150639
+        ],
+        "sensorID": 2,
+        "sensorModelID": 5,
+        "frameName": "s01_20140120T161125Z_pan_d2_0008.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d2_0008_rpc.txt"
+      },
+      {
+        "frameIndex": 23,
+        "exteriorOrientationParameters": [
+          -78.004105408026135,
+          39.737315889402737,
+          571275.85130535718,
+          -8.9650716899707774,
+          -8.3722790413485164,
+          167.32423451020031
+        ],
+        "sensorID": 2,
+        "sensorModelID": 5,
+        "frameName": "s01_20140120T161125Z_pan_d2_0009.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d2_0009_rpc.txt"
+      },
+      {
+        "frameIndex": 24,
+        "exteriorOrientationParameters": [
+          -78.017992183752199,
+          39.690888250894218,
+          571269.62782644015,
+          -8.5604888221298712,
+          -8.454502077813979,
+          167.38779215265308
+        ],
+        "sensorID": 2,
+        "sensorModelID": 5,
+        "frameName": "s01_20140120T161125Z_pan_d2_0010.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d2_0010_rpc.txt"
+      },
+      {
+        "frameIndex": 25,
+        "exteriorOrientationParameters": [
+          -78.032297751588615,
+          39.643039206968368,
+          571263.2504799189,
+          -8.1315904773584453,
+          -8.5327795162231883,
+          167.4581253887292
+        ],
+        "sensorID": 2,
+        "sensorModelID": 5,
+        "frameName": "s01_20140120T161125Z_pan_d2_0011.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d2_0011_rpc.txt"
+      },
+      {
+        "frameIndex": 26,
+        "exteriorOrientationParameters": [
+          -78.046583260327409,
+          39.59520377911516,
+          571256.82915264647,
+          -7.6990930972586309,
+          -8.6270758809940329,
+          167.52699847403429
+        ],
+        "sensorID": 2,
+        "sensorModelID": 5,
+        "frameName": "s01_20140120T161125Z_pan_d2_0012.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d2_0012_rpc.txt"
+      },
+      {
+        "frameIndex": 27,
+        "exteriorOrientationParameters": [
+          -78.06080484099266,
+          39.54758143721773,
+          571250.49468360562,
+          -7.2707501096758227,
+          -8.7289814999914128,
+          167.59644557182068
+        ],
+        "sensorID": 2,
+        "sensorModelID": 5,
+        "frameName": "s01_20140120T161125Z_pan_d2_0013.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d2_0013_rpc.txt"
+      },
+      {
+        "frameIndex": 28,
+        "exteriorOrientationParameters": [
+          -78.070466972566052,
+          39.515164718477344,
+          571246.2230058955,
+          -6.9764166820440536,
+          -8.7955833122338092,
+          167.64494742333042
+        ],
+        "sensorID": 2,
+        "sensorModelID": 5,
+        "frameName": "s01_20140120T161125Z_pan_d2_0014.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d2_0014_rpc.txt"
+      },
+      {
+        "frameIndex": 29,
+        "exteriorOrientationParameters": [
+          -77.885755560887574,
+          40.130728294746241,
+          571329.74179602135,
+          -12.921858704519025,
+          -6.7681330711680605,
+          162.98125166911177
+        ],
+        "sensorID": 3,
+        "sensorModelID": 6,
+        "frameName": "s01_20140120T161125Z_pan_d3_0001.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d3_0001_rpc.txt"
+      },
+      {
+        "frameIndex": 30,
+        "exteriorOrientationParameters": [
+          -77.900663784487747,
+          40.081367298646434,
+          571322.87284520362,
+          -12.500976163034752,
+          -6.8913408300688577,
+          163.04260202561417
+        ],
+        "sensorID": 3,
+        "sensorModelID": 6,
+        "frameName": "s01_20140120T161125Z_pan_d3_0002.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d3_0002_rpc.txt"
+      },
+      {
+        "frameIndex": 31,
+        "exteriorOrientationParameters": [
+          -77.915972736138556,
+          40.030671705539284,
+          571315.88459635526,
+          -12.062686419378213,
+          -7.0147151820037967,
+          163.10724062799858
+        ],
+        "sensorID": 3,
+        "sensorModelID": 6,
+        "frameName": "s01_20140120T161125Z_pan_d3_0003.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d3_0003_rpc.txt"
+      },
+      {
+        "frameIndex": 32,
+        "exteriorOrientationParameters": [
+          -77.931316689771833,
+          39.979745649148384,
+          571308.91462251451,
+          -11.623075947814314,
+          -7.1448789885289408,
+          163.17415112331452
+        ],
+        "sensorID": 3,
+        "sensorModelID": 6,
+        "frameName": "s01_20140120T161125Z_pan_d3_0004.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d3_0004_rpc.txt"
+      },
+      {
+        "frameIndex": 33,
+        "exteriorOrientationParameters": [
+          -77.9466715605991,
+          39.928695239793775,
+          571301.9584513912,
+          -11.186968563866785,
+          -7.287373266970361,
+          163.24213310532883
+        ],
+        "sensorID": 3,
+        "sensorModelID": 6,
+        "frameName": "s01_20140120T161125Z_pan_d3_0005.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d3_0005_rpc.txt"
+      },
+      {
+        "frameIndex": 34,
+        "exteriorOrientationParameters": [
+          -77.961544824190483,
+          39.879185413007811,
+          571295.19810955692,
+          -10.756201293637066,
+          -7.4125868629701026,
+          163.30799436897311
+        ],
+        "sensorID": 3,
+        "sensorModelID": 6,
+        "frameName": "s01_20140120T161125Z_pan_d3_0006.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d3_0006_rpc.txt"
+      },
+      {
+        "frameIndex": 35,
+        "exteriorOrientationParameters": [
+          -77.976369919805734,
+          39.829816338067516,
+          571288.42690299172,
+          -10.315555251322868,
+          -7.529132584551288,
+          163.37321447542422
+        ],
+        "sensorID": 3,
+        "sensorModelID": 6,
+        "frameName": "s01_20140120T161125Z_pan_d3_0007.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d3_0007_rpc.txt"
+      },
+      {
+        "frameIndex": 36,
+        "exteriorOrientationParameters": [
+          -77.990719794561656,
+          39.781970616074979,
+          571281.96062836424,
+          -9.8956571679163776,
+          -7.6482567276995193,
+          163.43363396847136
+        ],
+        "sensorID": 3,
+        "sensorModelID": 6,
+        "frameName": "s01_20140120T161125Z_pan_d3_0008.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d3_0008_rpc.txt"
+      },
+      {
+        "frameIndex": 37,
+        "exteriorOrientationParameters": [
+          -78.004538106663233,
+          39.735896633532029,
+          571275.7888073381,
+          -8.9561721985356222,
+          -8.3720747125959765,
+          167.32575437951067
+        ],
+        "sensorID": 3,
+        "sensorModelID": 6,
+        "frameName": "s01_20140120T161125Z_pan_d3_0009.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d3_0009_rpc.txt"
+      },
+      {
+        "frameIndex": 38,
+        "exteriorOrientationParameters": [
+          -78.018425209502297,
+          39.689468322092324,
+          571269.48750179727,
+          -8.5467571108277909,
+          -8.4588542425441524,
+          167.39097952333302
+        ],
+        "sensorID": 3,
+        "sensorModelID": 6,
+        "frameName": "s01_20140120T161125Z_pan_d3_0010.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d3_0010_rpc.txt"
+      },
+      {
+        "frameIndex": 39,
+        "exteriorOrientationParameters": [
+          -78.032759001378295,
+          39.641495596946754,
+          571262.97584226169,
+          -8.1176796759883896,
+          -8.5358511230041092,
+          167.4604095142239
+        ],
+        "sensorID": 3,
+        "sensorModelID": 6,
+        "frameName": "s01_20140120T161125Z_pan_d3_0011.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d3_0011_rpc.txt"
+      },
+      {
+        "frameIndex": 40,
+        "exteriorOrientationParameters": [
+          -78.047043586896393,
+          39.593660631031547,
+          571256.64074902888,
+          -7.6851328222973114,
+          -8.6302798130016569,
+          167.52925751832814
+        ],
+        "sensorID": 3,
+        "sensorModelID": 6,
+        "frameName": "s01_20140120T161125Z_pan_d3_0012.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d3_0012_rpc.txt"
+      },
+      {
+        "frameIndex": 41,
+        "exteriorOrientationParameters": [
+          -78.061265448235829,
+          39.546037606011758,
+          571250.24521191791,
+          -7.2567378640468778,
+          -8.7321584844786813,
+          167.59874681369698
+        ],
+        "sensorID": 3,
+        "sensorModelID": 6,
+        "frameName": "s01_20140120T161125Z_pan_d3_0013.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d3_0013_rpc.txt"
+      },
+      {
+        "frameIndex": 42,
+        "exteriorOrientationParameters": [
+          -78.070467139353696,
+          39.515164080686219,
+          571246.15940712858,
+          -6.9764148344966301,
+          -8.7955848518253781,
+          167.64494727028446
+        ],
+        "sensorID": 3,
+        "sensorModelID": 6,
+        "frameName": "s01_20140120T161125Z_pan_d3_0014.tif",
+        "rpcName": "s01_20140120T161125Z_pan_d3_0014_rpc.txt"
+      }
+    ]
+  },
+  "pansharp-rgb": {
+    "folder": "pansharp",
+    "frameCount": 42,
+    "frames": [
+      {
+        "frameIndex": 1,
+        "exteriorOrientationParameters": [
+          -77.885755291609897,
+          40.130728810437169,
+          571329.66776449978,
+          -12.921859463166081,
+          -6.7681329871164424,
+          162.98125151644038
+        ],
+        "sensorID": 1,
+        "sensorModelID": 7,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d1_0001.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d1_0001_rpc.txt"
+      },
+      {
+        "frameIndex": 2,
+        "exteriorOrientationParameters": [
+          -77.901130307191877,
+          40.079825215084419,
+          571322.68512037769,
+          -12.487613964390864,
+          -6.8952087351647826,
+          163.04451594762514
+        ],
+        "sensorID": 1,
+        "sensorModelID": 7,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d1_0002.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d1_0002_rpc.txt"
+      },
+      {
+        "frameIndex": 3,
+        "exteriorOrientationParameters": [
+          -77.916490666249842,
+          40.028900320410948,
+          571315.6215262264,
+          -12.049918962410192,
+          -7.0188314913202543,
+          163.10922203382592
+        ],
+        "sensorID": 1,
+        "sensorModelID": 7,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d1_0003.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d1_0003_rpc.txt"
+      },
+      {
+        "frameIndex": 4,
+        "exteriorOrientationParameters": [
+          -77.931781599499132,
+          39.978201957697145,
+          571308.66324967146,
+          -11.609501368878192,
+          -7.1488275542867328,
+          163.17626155295849
+        ],
+        "sensorID": 1,
+        "sensorModelID": 7,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d1_0004.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d1_0004_rpc.txt"
+      },
+      {
+        "frameIndex": 5,
+        "exteriorOrientationParameters": [
+          -77.947135834011206,
+          39.927151375786401,
+          571301.74043704569,
+          -11.173442136542334,
+          -7.2914378666152073,
+          163.24427401807566
+        ],
+        "sensorID": 1,
+        "sensorModelID": 7,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d1_0005.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d1_0005_rpc.txt"
+      },
+      {
+        "frameIndex": 6,
+        "exteriorOrientationParameters": [
+          -77.962008917463933,
+          39.877642656055308,
+          571294.97884208616,
+          -10.742679513555245,
+          -7.4163864509944215,
+          163.31010092522894
+        ],
+        "sensorID": 1,
+        "sensorModelID": 7,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d1_0006.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d1_0006_rpc.txt"
+      },
+      {
+        "frameIndex": 7,
+        "exteriorOrientationParameters": [
+          -77.976837208781745,
+          39.828254926239765,
+          571288.26266541611,
+          -10.30288761530355,
+          -7.5339593819417736,
+          163.37393553279921
+        ],
+        "sensorID": 1,
+        "sensorModelID": 7,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d1_0007.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d1_0007_rpc.txt"
+      },
+      {
+        "frameIndex": 8,
+        "exteriorOrientationParameters": [
+          -77.991182341146327,
+          39.780427515391693,
+          571281.79146542773,
+          -9.8820860815161495,
+          -7.6521727239938588,
+          163.4357734716927
+        ],
+        "sensorID": 1,
+        "sensorModelID": 7,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d1_0008.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d1_0008_rpc.txt"
+      },
+      {
+        "frameIndex": 9,
+        "exteriorOrientationParameters": [
+          -78.005000678402624,
+          39.734353368947211,
+          571275.47861490585,
+          -8.9423952673480223,
+          -8.3750347270662981,
+          167.32800636785367
+        ],
+        "sensorID": 1,
+        "sensorModelID": 7,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d1_0009.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d1_0009_rpc.txt"
+      },
+      {
+        "frameIndex": 10,
+        "exteriorOrientationParameters": [
+          -78.018886264662783,
+          39.687924243725455,
+          571269.28881999385,
+          -8.5330014710555009,
+          -8.4619233596906902,
+          167.39315420121559
+        ],
+        "sensorID": 1,
+        "sensorModelID": 7,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d1_0010.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d1_0010_rpc.txt"
+      },
+      {
+        "frameIndex": 11,
+        "exteriorOrientationParameters": [
+          -78.033220334264399,
+          39.639952111224382,
+          571262.84476460703,
+          -8.1037731434219751,
+          -8.5389206280017245,
+          167.46269280094683
+        ],
+        "sensorID": 1,
+        "sensorModelID": 7,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d1_0011.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d1_0011_rpc.txt"
+      },
+      {
+        "frameIndex": 12,
+        "exteriorOrientationParameters": [
+          -78.047965394461173,
+          39.590573822820531,
+          571256.19661340024,
+          -7.6571995941112352,
+          -8.6366846327010744,
+          167.53377812572793
+        ],
+        "sensorID": 1,
+        "sensorModelID": 7,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d1_0012.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d1_0012_rpc.txt"
+      },
+      {
+        "frameIndex": 13,
+        "exteriorOrientationParameters": [
+          -78.062185750109748,
+          39.542950446933894,
+          571249.84467596468,
+          -7.228712000504542,
+          -8.738511998468157,
+          167.60335144703703
+        ],
+        "sensorID": 1,
+        "sensorModelID": 7,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d1_0013.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d1_0013_rpc.txt"
+      },
+      {
+        "frameIndex": 14,
+        "exteriorOrientationParameters": [
+          -78.070466972566052,
+          39.515164718477344,
+          571246.2230058955,
+          -6.9764166820440536,
+          -8.7955833122338092,
+          167.64494742333042
+        ],
+        "sensorID": 1,
+        "sensorModelID": 7,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d1_0014.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d1_0014_rpc.txt"
+      },
+      {
+        "frameIndex": 15,
+        "exteriorOrientationParameters": [
+          -77.885755560887574,
+          40.130728294746241,
+          571329.74179602135,
+          -12.921856830659429,
+          -6.7681335965871714,
+          162.98125196219991
+        ],
+        "sensorID": 2,
+        "sensorModelID": 8,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d2_0001.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d2_0001_rpc.txt"
+      },
+      {
+        "frameIndex": 16,
+        "exteriorOrientationParameters": [
+          -77.900663785922418,
+          40.081367931149835,
+          571322.93720321916,
+          -12.5009762568345,
+          -6.8913398473815386,
+          163.04260161172215
+        ],
+        "sensorID": 2,
+        "sensorModelID": 8,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d2_0002.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d2_0002_rpc.txt"
+      },
+      {
+        "frameIndex": 17,
+        "exteriorOrientationParameters": [
+          -77.915972734704866,
+          40.030671072559954,
+          571315.82030606642,
+          -12.062685430060659,
+          -7.0147153102471069,
+          163.10724161939316
+        ],
+        "sensorID": 2,
+        "sensorModelID": 8,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d2_0003.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d2_0003_rpc.txt"
+      },
+      {
+        "frameIndex": 18,
+        "exteriorOrientationParameters": [
+          -77.931316689771833,
+          39.979745649148384,
+          571308.91462251451,
+          -11.623075947814314,
+          -7.1448789885289408,
+          163.17415112331452
+        ],
+        "sensorID": 2,
+        "sensorModelID": 8,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d2_0004.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d2_0004_rpc.txt"
+      },
+      {
+        "frameIndex": 19,
+        "exteriorOrientationParameters": [
+          -77.946207705046447,
+          39.930237954614277,
+          571302.19176994916,
+          -11.200499682065807,
+          -7.2833084653748443,
+          163.23999332829493
+        ],
+        "sensorID": 2,
+        "sensorModelID": 8,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d2_0005.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d2_0005_rpc.txt"
+      },
+      {
+        "frameIndex": 20,
+        "exteriorOrientationParameters": [
+          -77.961081320015111,
+          39.880729447018204,
+          571295.39313160442,
+          -10.76971958372758,
+          -7.4087855797362572,
+          163.30588962068981
+        ],
+        "sensorID": 2,
+        "sensorModelID": 8,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d2_0006.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d2_0006_rpc.txt"
+      },
+      {
+        "frameIndex": 21,
+        "exteriorOrientationParameters": [
+          -77.975906424696319,
+          39.831359265785061,
+          571288.62375241797,
+          -10.32937290622057,
+          -7.5254221329957955,
+          163.37111808550094
+        ],
+        "sensorID": 2,
+        "sensorModelID": 8,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d2_0007.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d2_0007_rpc.txt"
+      },
+      {
+        "frameIndex": 22,
+        "exteriorOrientationParameters": [
+          -77.990204357651592,
+          39.783742753378412,
+          571282.13906339556,
+          -9.9101010252779407,
+          -7.6428777788971143,
+          163.42962646150639
+        ],
+        "sensorID": 2,
+        "sensorModelID": 8,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d2_0008.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d2_0008_rpc.txt"
+      },
+      {
+        "frameIndex": 23,
+        "exteriorOrientationParameters": [
+          -78.004105408026135,
+          39.737315889402737,
+          571275.85130535718,
+          -8.9650716899707774,
+          -8.3722790413485164,
+          167.32423451020031
+        ],
+        "sensorID": 2,
+        "sensorModelID": 8,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d2_0009.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d2_0009_rpc.txt"
+      },
+      {
+        "frameIndex": 24,
+        "exteriorOrientationParameters": [
+          -78.017992183752199,
+          39.690888250894218,
+          571269.62782644015,
+          -8.5604888221298712,
+          -8.454502077813979,
+          167.38779215265308
+        ],
+        "sensorID": 2,
+        "sensorModelID": 8,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d2_0010.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d2_0010_rpc.txt"
+      },
+      {
+        "frameIndex": 25,
+        "exteriorOrientationParameters": [
+          -78.032297751588615,
+          39.643039206968368,
+          571263.2504799189,
+          -8.1315904773584453,
+          -8.5327795162231883,
+          167.4581253887292
+        ],
+        "sensorID": 2,
+        "sensorModelID": 8,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d2_0011.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d2_0011_rpc.txt"
+      },
+      {
+        "frameIndex": 26,
+        "exteriorOrientationParameters": [
+          -78.046583260327409,
+          39.59520377911516,
+          571256.82915264647,
+          -7.6990930972586309,
+          -8.6270758809940329,
+          167.52699847403429
+        ],
+        "sensorID": 2,
+        "sensorModelID": 8,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d2_0012.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d2_0012_rpc.txt"
+      },
+      {
+        "frameIndex": 27,
+        "exteriorOrientationParameters": [
+          -78.06080484099266,
+          39.54758143721773,
+          571250.49468360562,
+          -7.2707501096758227,
+          -8.7289814999914128,
+          167.59644557182068
+        ],
+        "sensorID": 2,
+        "sensorModelID": 8,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d2_0013.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d2_0013_rpc.txt"
+      },
+      {
+        "frameIndex": 28,
+        "exteriorOrientationParameters": [
+          -78.070466972566052,
+          39.515164718477344,
+          571246.2230058955,
+          -6.9764166820440536,
+          -8.7955833122338092,
+          167.64494742333042
+        ],
+        "sensorID": 2,
+        "sensorModelID": 8,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d2_0014.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d2_0014_rpc.txt"
+      },
+      {
+        "frameIndex": 29,
+        "exteriorOrientationParameters": [
+          -77.885755560887574,
+          40.130728294746241,
+          571329.74179602135,
+          -12.921858704519025,
+          -6.7681330711680605,
+          162.98125166911177
+        ],
+        "sensorID": 3,
+        "sensorModelID": 9,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d3_0001.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d3_0001_rpc.txt"
+      },
+      {
+        "frameIndex": 30,
+        "exteriorOrientationParameters": [
+          -77.900663784487747,
+          40.081367298646434,
+          571322.87284520362,
+          -12.500976163034752,
+          -6.8913408300688577,
+          163.04260202561417
+        ],
+        "sensorID": 3,
+        "sensorModelID": 9,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d3_0002.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d3_0002_rpc.txt"
+      },
+      {
+        "frameIndex": 31,
+        "exteriorOrientationParameters": [
+          -77.915972736138556,
+          40.030671705539284,
+          571315.88459635526,
+          -12.062686419378213,
+          -7.0147151820037967,
+          163.10724062799858
+        ],
+        "sensorID": 3,
+        "sensorModelID": 9,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d3_0003.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d3_0003_rpc.txt"
+      },
+      {
+        "frameIndex": 32,
+        "exteriorOrientationParameters": [
+          -77.931316689771833,
+          39.979745649148384,
+          571308.91462251451,
+          -11.623075947814314,
+          -7.1448789885289408,
+          163.17415112331452
+        ],
+        "sensorID": 3,
+        "sensorModelID": 9,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d3_0004.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d3_0004_rpc.txt"
+      },
+      {
+        "frameIndex": 33,
+        "exteriorOrientationParameters": [
+          -77.9466715605991,
+          39.928695239793775,
+          571301.9584513912,
+          -11.186968563866785,
+          -7.287373266970361,
+          163.24213310532883
+        ],
+        "sensorID": 3,
+        "sensorModelID": 9,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d3_0005.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d3_0005_rpc.txt"
+      },
+      {
+        "frameIndex": 34,
+        "exteriorOrientationParameters": [
+          -77.961544824190483,
+          39.879185413007811,
+          571295.19810955692,
+          -10.756201293637066,
+          -7.4125868629701026,
+          163.30799436897311
+        ],
+        "sensorID": 3,
+        "sensorModelID": 9,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d3_0006.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d3_0006_rpc.txt"
+      },
+      {
+        "frameIndex": 35,
+        "exteriorOrientationParameters": [
+          -77.976369919805734,
+          39.829816338067516,
+          571288.42690299172,
+          -10.315555251322868,
+          -7.529132584551288,
+          163.37321447542422
+        ],
+        "sensorID": 3,
+        "sensorModelID": 9,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d3_0007.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d3_0007_rpc.txt"
+      },
+      {
+        "frameIndex": 36,
+        "exteriorOrientationParameters": [
+          -77.990719794561656,
+          39.781970616074979,
+          571281.96062836424,
+          -9.8956571679163776,
+          -7.6482567276995193,
+          163.43363396847136
+        ],
+        "sensorID": 3,
+        "sensorModelID": 9,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d3_0008.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d3_0008_rpc.txt"
+      },
+      {
+        "frameIndex": 37,
+        "exteriorOrientationParameters": [
+          -78.004538106663233,
+          39.735896633532029,
+          571275.7888073381,
+          -8.9561721985356222,
+          -8.3720747125959765,
+          167.32575437951067
+        ],
+        "sensorID": 3,
+        "sensorModelID": 9,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d3_0009.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d3_0009_rpc.txt"
+      },
+      {
+        "frameIndex": 38,
+        "exteriorOrientationParameters": [
+          -78.018425209502297,
+          39.689468322092324,
+          571269.48750179727,
+          -8.5467571108277909,
+          -8.4588542425441524,
+          167.39097952333302
+        ],
+        "sensorID": 3,
+        "sensorModelID": 9,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d3_0010.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d3_0010_rpc.txt"
+      },
+      {
+        "frameIndex": 39,
+        "exteriorOrientationParameters": [
+          -78.032759001378295,
+          39.641495596946754,
+          571262.97584226169,
+          -8.1176796759883896,
+          -8.5358511230041092,
+          167.4604095142239
+        ],
+        "sensorID": 3,
+        "sensorModelID": 9,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d3_0011.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d3_0011_rpc.txt"
+      },
+      {
+        "frameIndex": 40,
+        "exteriorOrientationParameters": [
+          -78.047043586896393,
+          39.593660631031547,
+          571256.64074902888,
+          -7.6851328222973114,
+          -8.6302798130016569,
+          167.52925751832814
+        ],
+        "sensorID": 3,
+        "sensorModelID": 9,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d3_0012.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d3_0012_rpc.txt"
+      },
+      {
+        "frameIndex": 41,
+        "exteriorOrientationParameters": [
+          -78.061265448235829,
+          39.546037606011758,
+          571250.24521191791,
+          -7.2567378640468778,
+          -8.7321584844786813,
+          167.59874681369698
+        ],
+        "sensorID": 3,
+        "sensorModelID": 9,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d3_0013.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d3_0013_rpc.txt"
+      },
+      {
+        "frameIndex": 42,
+        "exteriorOrientationParameters": [
+          -78.070467139353696,
+          39.515164080686219,
+          571246.15940712858,
+          -6.9764148344966301,
+          -8.7955848518253781,
+          167.64494727028446
+        ],
+        "sensorID": 3,
+        "sensorModelID": 9,
+        "frameName": "s01_20140120T161125Z_pansharp_rgb_d3_0014.tif",
+        "rpcName": "s01_20140120T161125Z_pansharp_rgb_d3_0014_rpc.txt"
+      }
+    ]
+  }
+}
+

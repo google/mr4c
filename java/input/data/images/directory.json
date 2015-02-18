@@ -1,0 +1,7 @@
+{
+	"mapper" : {
+		"pattern" : "ss01_c${SENSOR}_${FRAME}_${IMAGE_TYPE}_${ID}.jpc",
+		"dimensions" : [ "FRAME","SENSOR","IMAGE_TYPE" ]
+	},
+	"ignore" : true
+}

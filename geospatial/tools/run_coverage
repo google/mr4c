@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -e
+
+DIR=`dirname $0`
+
+source ${DIR}/prep_env
+
+$DIR/../exe/run_coverage $*

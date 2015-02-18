@@ -1,0 +1,21 @@
+{
+	"name" : "registered name",
+	"type" : "NATIVEC, JAVA"
+	"artifact" : "lib or class name",
+	"inputs" : [ "dataset1"],
+	"outputs" : [ "dataset1", "dataset2" ]
+	"optionalInputs" : [ "dataset2" ]
+	"extras" : [ "libname1", "libname2" ]
+	"dimensions" : [ 
+		{
+			"name" : "dim1",
+			"canSplit" : true or false, defaults to true
+			"overlapBefore" : optional int, defaults to zero
+			"overlapAfter" : optional int, defaults to zero
+			"maxSize" : optional int
+			"dependent" : true or false, defaults to false
+		}
+	]
+		
+}
+
