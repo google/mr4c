@@ -36,6 +36,24 @@ We suggest you run through this repo in the following order:
 * proj4 (4.8.0 min)
 * gdal (1.10 min)
 
+### Build
+
+There are four scripts included to build, clean, deploy and/or remove mr4c. Build with:
+
+    ./build_all
+    
+Clean previous builds with:
+
+    ./clean_all
+    
+Deploy to /usr/local/mr4c using:
+
+    ./deploy_all
+    
+Remove all components with:
+
+    ./remove_all
+
 
 If you get stuck, have questions, or would like to provide *any* feedback, please don’t hesitate to contact us at mr4c@googlegroups.com. 
 Let’s do big things together.
