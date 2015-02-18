@@ -13,7 +13,7 @@ MR4C enables large-scale deployment of advanced data processing applications.
 This repository includes user guide, tutorials and source code for the MR4C framework created by Google Inc.
 We suggest you run through this repo in the following order:
 
-  1. Make sure that you have all dependencies (see below).
+  1. Make sure that you have all dependencies and build (see below).
   2. Test that MR4C install was successful
     - Run `test_mr4c.sh` from the test directory
   3. Study up on MR4C
