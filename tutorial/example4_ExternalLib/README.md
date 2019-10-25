@@ -1,4 +1,4 @@
-##Introduction
+## Introduction
 The ExternalLib example is our first example utilizing a third party library in addition to our own algorithm.
 Additionally, we are using GDAL to read a geotiff and report some of the important metadata.
 This method can be used to convert a MR4C::Dataset into a GDALDataset
