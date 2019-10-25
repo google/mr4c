@@ -31,7 +31,7 @@ when it is registered with MR4C_REGISTER_ALGORITHM(name, algoPtr);
 ### makefile
 instructions to build the HelloWorld shared object from helloworld.cpp
 
-###/helloworld.json
+### /helloworld.json
 mr4c configuration file that tells mr4c to call a "HelloWorld" object from the "NATIVEC" library called "HelloWorld"
 
 ### Execute
