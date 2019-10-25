@@ -1,19 +1,19 @@
-#MR4C json Example
+# MR4C json Example
 
-##Description
+## Description
 
 This example application illustrates how to read json formated data. 
 We will use a SkySat metadata file as an example.
 
 Contact mr4c@googlegroups.com with any question or comments.
 
-##Build
+## Build
 
 Navigate to the example5_json folder and run the following command:
 
     make
 
-##Running json.sh
+## Running json.sh
 
 To run the json example, execute the following command: 
 
@@ -23,7 +23,7 @@ This will input the file from the input folder, execute the algorithm,
 and output some of the important records stored in the json file to stdout
 in the section between the **NATIVE_OUTPUT** header/footer.
 
-##Concepts
+## Concepts
 If you open the SkySat metadata file from the ./input folder,
 you will quickly see that there is a lot of information that 
 can be a little difficult to interpret with a simple read. 

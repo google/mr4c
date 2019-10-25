@@ -1,18 +1,18 @@
-#MR4C Change Image Example
+# MR4C Change Image Example
 
 
-##Description
+## Description
 
 This example application illustrates simple input/output using MR4C. 
 
 Contact mr4c@googlegroups.com with any question or comments.
 
-##Build
+## Build
 Navigate to the example2_IO folder and run the following commands:
 
     make
 
-##Running bbChangeImage
+## Running bbChangeImage
 
 To run bbChangeImage execute the following command from the cloned folder: 
 

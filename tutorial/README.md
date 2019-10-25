@@ -1,7 +1,7 @@
 Intro to MR4C Examples:
 ===========
 
-###EXAMPLES
+### EXAMPLES
 
 1.	hello world - set up a basic working algorithm
 2.	input output - learn how to read and write datasets
@@ -13,7 +13,7 @@ Intro to MR4C Examples:
 8. mbtiles - an example using the MR4C Geospatial library to export a mbtiles file from a Skysat scene.
 9. random access - when you need to deal with large datasets, you will need to read in smaller chunks. This example shows you the various ways that MR4C can help you do this.
 
-###Run in Hadoop
+### Run in Hadoop
 
 * HDFS commands - use the format:
 
