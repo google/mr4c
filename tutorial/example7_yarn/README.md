@@ -25,7 +25,7 @@ The cluster will be queried for its resource limits:
 
 The Hcluster names can be configured in the $MR4C_HOME/bin/java_yarn/conf/site.json file. Alternatively, you can assign a site.json using the $MR4C_SITE variable.
 
-##MapReduce
+## MapReduce
 The two algorithms in this example illustrate basic mapper and reducer steps:
 * Mapper: collect individual histograms for the pixel values from a series of input images in a map step.
 * Reducer: combine all the histograms into a single histogram for all input images.
