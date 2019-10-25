@@ -1,5 +1,5 @@
-Using YARN Resource Allocation with MR4C
-===========
+# Using YARN Resource Allocation with MR4C
+
 The previous examples illustrate the fundamental interfaces that MR4C uses to connect algorithms to datasets, but you may notice that we have only worked on the local machine using the mr4c executable. This example will show you the true power of MR4C by executing the algorithms in Hadoop using the mr4c_hadoop executable.
 
 Additionally, we introduce a simple map reduce workflow including two steps that work in conjunction to allow you to split the work accross into many processes, and reduce the results from each of those processes into a single answer. While we do that we will also introduce the MR4C/YARN features using dynamic resource allocation. We use two algorithms configured with map.json and reduce.json. The resources are allocated in mapReduce.sh using the following parameters:
