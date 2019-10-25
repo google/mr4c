@@ -1,4 +1,4 @@
-##Introduction
+## Introduction
 This example builds on everything we learned in the previous examples:
 
   1. Read in several files from a directory
@@ -9,7 +9,7 @@ This example builds on everything we learned in the previous examples:
   6. Use MR4C dimensions to write output files from memory
 
 
-##References
+## References
 
 - Please refer to the [GDAL documentation](http://www.gdal.org/cpl__vsi_8h.html) for more info on how to use virtual files.
 - Please download and build [GDAL from source](http://trac.osgeo.org/gdal/wiki/BuildHints).
