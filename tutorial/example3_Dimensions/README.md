@@ -1,8 +1,8 @@
-#Dimensions
+# Dimensions
 
 This example builds on the IO example but instead of specifying files for input and output this algorithm reads/writes all files to/from a folder/URI using dimensions. This makes the algrithm very flexible and scale to very large datasets with a lot of elements.
 
-###Configuration:
+### Configuration:
 We use the mappers in dimension.json to configure our dataset dimensions:
 
 	"mapper" : {
