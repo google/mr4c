@@ -1,9 +1,9 @@
-##Algorithm name: mbtiles
+## Algorithm name: mbtiles
 
-###Description:
+### Description:
 MR4C now supports output in MBtiles format for upload to mapbox.com or any other compatible application. The following example illustrates how to output MBtiles using the MR4C Geospatial library.
 
-###Parameters:
+### Parameters:
 * name: required, becomes "name" in mbtiles metadata
 * description: optional, becomes description in mbtiles metadata
 * version: optional, integer, default=1, becomes version in mbtiles metadata
@@ -13,7 +13,7 @@ MR4C now supports output in MBtiles format for upload to mapbox.com or any other
 * maxZoom: optional, if not provided algo will compute max zoom so tile size is the largest tile that does not need to be down-sampled
 	
 
-###Input Data:
+### Input Data:
 
  * Geotiff
  * 8 or 16 bit rendered values
@@ -25,7 +25,7 @@ To reproject:
 	gdalwarp -wm 2048 -r cubic -t_srs EPSG:3857 input.tif inputWeb.tif
 
 	
-###Run Script
+### Run Script
 
 The run script is configured to get the input dataset from the local folder and put it to hdfs. 
 After the output.mbtiles file is created, the script will get the file to the local folder.
